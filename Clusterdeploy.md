@@ -47,8 +47,14 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 12. In the **Configuration+pricing** tab for this cluster , note that the **Node configuration** section  does NOT have a **Premium disks per worker node** line item.
 13. Choose the Region node to **10** and Node Size to **D14v2**.(*Also note the lack of DS series VM types like earlier*) 
 14. Click **Create** to start deploying the second cluster without Accelerated Writes. 
+15. Now that we are done with cluster deployments , in the next section we would set up and run  YCSB tests on both these clusters. 
+
+
+[NEXT-->]
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3ODgxNTAyLC03MzM3NjI5MjIsNzg4Mj
-g1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbNDg2MTgwNjk4LDMxNzg4MTUwMiwtNzMzNz
+YyOTIyLDc4ODI4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTld
+fQ==
 -->
