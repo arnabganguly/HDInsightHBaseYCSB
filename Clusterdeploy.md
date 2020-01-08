@@ -33,7 +33,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 5. Leave the **Security+Networking** blade to its default settings with no changes and go to the **Configuration+pricing** tab. 
 
-6. Note the line Item of premium disks added to the list 
+6. Note the **Node configuration** section line Item of premium disks added to the list 
 
 
  - **Cluster Type** : Cluster Type -  *HBase* 
@@ -44,6 +44,6 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
  - **Use cluster login password for SSH**: Check the box to use the same password for both SSH logins and Ambari Logins etc. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0NDk0MDY3LDc4ODI4NTYxNSwtNDMxNT
-Q1OTI0LDEyMDEzNzg1OTldfQ==
+eyJoaXN0b3J5IjpbLTczMzc2MjkyMiw3ODgyODU2MTUsLTQzMT
+U0NTkyNCwxMjAxMzc4NTk5XX0=
 -->
