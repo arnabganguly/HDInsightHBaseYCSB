@@ -48,8 +48,10 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 9. In the Review and Create tab , ensure that **HBase Accelerated Writes** is Enabled under the **Storage** section. 
 
-11. Click **Create** 
+10. Click **Create** to start deploying the cluster. 
+
+11. Repeat  the same steps again to create a cluster without Acclerated writes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzMxODU1OSwtNzMzNzYyOTIyLDc4OD
-I4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
+eyJoaXN0b3J5IjpbLTE0ODIwNzkyMjgsLTczMzc2MjkyMiw3OD
+gyODU2MTUsLTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
 -->
