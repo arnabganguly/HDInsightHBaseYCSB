@@ -45,8 +45,9 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
  - **Use cluster login password for SSH**: Check the box to use the same password for both SSH logins and Ambari Logins etc. 
 8. Click **Next: Review + Create**
-9. In the Review and Create tab , ensure that Hb
+
+10. In the Review and Create tab , ensure that **HBase Accelerated Writes** is Enabled under the **Storage** section. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTUyNDY2OSwtNzMzNzYyOTIyLDc4OD
+eyJoaXN0b3J5IjpbMTQ0Mjk3MDgxMywtNzMzNzYyOTIyLDc4OD
 I4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
 -->
