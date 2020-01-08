@@ -33,7 +33,8 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 5. Leave the **Security+Networking** blade to its default settings with no changes and go to the **Configuration+pricing** tab. 
 
-6. Note the **Node configuration** section now has a line Item titled **Premium disks per worker node** and the Region node is set to
+6. Note the **Node configuration** section now has a line Item titled **Premium disks per worker node**. 
+7. Choose the Region node to 10 (*or lesser depending on budget* but ensure that the clusters have identical number of nodes and VM SKU to ensure parity in comparison)
 
 
  - **Cluster Type** : Cluster Type -  *HBase* 
@@ -44,6 +45,6 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
  - **Use cluster login password for SSH**: Check the box to use the same password for both SSH logins and Ambari Logins etc. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDkzNTE0LC03MzM3NjI5MjIsNzg4Mj
-g1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTY3NzU4MTEsLTczMzc2MjkyMiw3ODgyOD
+U2MTUsLTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
 -->
