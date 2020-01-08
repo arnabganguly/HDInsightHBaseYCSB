@@ -1,6 +1,6 @@
 ## Provision HDInsight  HBase cluster with Azure Management Portal
 
-To provision HDInsight HBase with Azure Management Portal, perform the below steps. 
+To provision HDInsight HBase with the new experience on  Azure Management Portal, perform the below steps. 
 
 1. Go to the Azure Portal portal.azure.com. Login using your azure account credentials.
     
@@ -9,7 +9,7 @@ To provision HDInsight HBase with Azure Management Portal, perform the below ste
 3. On the Basics Tab populate the below fields towards the creation of an HBase cluster. 
 
  - **Subscription**: *Should be autopopulated with the subscription details*
- - **Region**: Enter the name of the region of deployment
+ - **Resource Group**: Enter a resource group for holding your deployment
 
 
  - **Cluster Name**: *Enter the cluster name. A green tick will appear if the cluster name is available.*
@@ -25,5 +25,5 @@ To provision HDInsight HBase with Azure Management Portal, perform the below ste
 
 4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM3Mzg5MzgsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTg2Mjg5MTY0NSwxMjAxMzc4NTk5XX0=
 -->
