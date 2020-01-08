@@ -11,6 +11,8 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Subscription**: *Should be autopopulated with the subscription details*
  - **Resource Group**: Enter a resource group for holding your HDInsight HBase deployment
 
+    <br>
+    <br>
 
  - **Cluster Name**: Enter the cluster name. A green tick will appear if the cluster name is available.
  - **Region**: Enter the name of the region of deployment
@@ -22,5 +24,5 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
  - **Use cluster login password for SSH**: Check the box to use the same password for both SSH logins and Ambari Logins etc. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE3NTMyNTAsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbMTQ0MDQ2NzQxNCwxMjAxMzc4NTk5XX0=
 -->
