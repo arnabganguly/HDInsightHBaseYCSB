@@ -29,7 +29,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 - **Primary Storage Type**: Azure Storage.
  - **Selection Method**: Select from a list Radio Button
  - **Primary Storage Account**:  A default storage account name(formed from your cluster name) and a corresponding container should be prepopulated. Click **OK** to select these
- - Leave the rest of the options untouched and scroll down to the checkbox **Enable Hbase 
+ - Leave the rest of the options untouched and scroll down to check the checkbox **Enable HBase acclerated writes**.  *(Note that we would creating a second cluster later with the same steps but with this box unchecked.)* 
 
 
 
@@ -41,6 +41,6 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
  - **Use cluster login password for SSH**: Check the box to use the same password for both SSH logins and Ambari Logins etc. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDQ3MTY2NSwtNDMxNTQ1OTI0LDEyMD
+eyJoaXN0b3J5IjpbMTM2Mjk5NzQ1NiwtNDMxNTQ1OTI0LDEyMD
 EzNzg1OTldfQ==
 -->
