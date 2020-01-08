@@ -16,13 +16,9 @@ To provision HDInsight HBase with Azure Management Portal, perform the below ste
  - **Confirm cluster login password**: *Enter the same password for cluster login(default:sshuser)*
  - *Check the box for Use cluster login password for SSH*
  - **Resource Group**:*Put the cluster in the same resource group as the Storage account and MI.* 
- - **Location**: *Use the same Azure Region as the Storage account*
-
-4. 
-
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDE5MTQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTY1NzE5NTM3NCwxMjAxMzc4NTk5XX0=
 -->
