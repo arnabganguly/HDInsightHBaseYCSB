@@ -44,10 +44,10 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 11. Repeat  the same steps again to create a cluster without Accelerated writes by unchecking the **Enable Accelerated Writes** checkbox on the storage tab. 
 
-12. Note that the **Node configuration** section of this cluster does not have a **Premium disks per worker node** line item.
-7. Choose the Region node to **10** and Node Size to **DS14v2**(*you could chooser smaller number and size also but ensure that the both clusters have identical number of nodes and VM SKU to ensure parity in comparison*) 
+12. In the **Configuration+pricing** tab for this cluster , note that the **Node configuration** section  does NOT have a **Premium disks per worker node** line item.
+7. Choose the Region node to **10** and Node Size to **D14v2**.(*Also note the lack of DS series VM types like earlier*) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjUyNjU4NywtNzMzNzYyOTIyLDc4OD
+eyJoaXN0b3J5IjpbMTA3MDA4MTU4MiwtNzMzNzYyOTIyLDc4OD
 I4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
 -->
