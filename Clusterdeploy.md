@@ -33,17 +33,9 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 5. Leave the **Security+Networking** blade to its default settings with no changes and go to the **Configuration+pricing** tab. 
 
-6. Note the **Node configuration** section now has a line Item titled **Premium disks per worker node**. 
+6. In the **Configuration+pricing** tab, note the **Node configuration** section now has a line Item titled **Premium disks per worker node**. 
 7. Choose the Region node to **10** and Node Size to **DS14v2**(*you could chooser smaller number and size also but ensure that the both clusters have identical number of nodes and VM SKU to ensure parity in comparison*) 
 
-
- - **Cluster Type** : Cluster Type -  *HBase* 
-  Version-   *HBase 2.0.0(HDI 4.0)* 
- - **Cluster login username**:Enter username for cluster administrator(default:admin)
- - **Cluster login password**:Enter password for cluster login(*default:sshuser*)
- - **Confirm Cluster login password**: Confirm the password entered in the last step 
- - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
- - **Use cluster login password for SSH**: Check the box to use the same password for both SSH logins and Ambari Logins etc. 
 8. Click **Next: Review + Create**
 
 9. In the Review and Create tab , ensure that **HBase Accelerated Writes** is Enabled under the **Storage** section. 
@@ -52,8 +44,10 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 11. Repeat  the same steps again to create a cluster without Accelerated writes by unchecking the **Enable Accelerated Writes** checkbox on the storage tab. 
 
-12. In the **Configuration+pricing** tab of this cluster 
+12. Note that the **Node configuration** section of this cluster does not have a **Premium disks per worker node** line item.
+7. Choose the Region node to **10** and Node Size to **DS14v2**(*you could chooser smaller number and size also but ensure that the both clusters have identical number of nodes and VM SKU to ensure parity in comparison*) 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTY1Nzk4LC03MzM3NjI5MjIsNzg4Mj
-g1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbMTkwNjUyNjU4NywtNzMzNzYyOTIyLDc4OD
+I4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
 -->
