@@ -5,7 +5,7 @@
 
 Before you start the Lab please ensure you have the below
 
--   Azure subscription with authorization to create an HDInsight ([HBase](https://cwiki.apache.org/confluence/display/Hive/LLAP))LLAP cluster.
+-   Azure subscription with authorization to create an HDInsight [HBase](https://hbase.apache.org/) cluster.
 -   Download  [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).
 
 Optional
@@ -22,5 +22,5 @@ To the start the lab click  [here](https://github.com/arnabganguly/llap-hdinsigh
 Please do complete the  [HDinsight Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR6613ua2aihPk14MtaeiuDpUN0JBMVVINE9IVjBWT0dKREYzMUJIT1ZGWi4u)  for us to be able to better design the product according to customer and partner preferences.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI5ODUzODEsNDEwMzA4MDk5XX0=
+eyJoaXN0b3J5IjpbLTI0Mjk5MzQ0Nyw0MTAzMDgwOTldfQ==
 -->
