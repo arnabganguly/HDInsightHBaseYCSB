@@ -9,7 +9,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 3. On the Basics Tab populate the below fields towards the creation of an HBase cluster. 
 
  - **Subscription**: *Should be autopopulated with the subscription details*
- - **Resource Group**: Enter a resource group for holding your deployment
+ - **Resource Group**: Enter a resource group for holding your HDInsight HBase deployment
 
 
  - **Cluster Name**: *Enter the cluster name. A green tick will appear if the cluster name is available.*
@@ -25,5 +25,5 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjg5MTY0NSwxMjAxMzc4NTk5XX0=
+eyJoaXN0b3J5IjpbLTIwNzIxNDk2NDAsMTIwMTM3ODU5OV19
 -->
