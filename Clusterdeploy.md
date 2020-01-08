@@ -7,6 +7,11 @@ To provision HDInsight HBase with Azure Management Portal, perform the below ste
 2. Select  **Create a resource -> Analytics -> HDInsight**
 
 3. On the Basics Tab populate the below fields towards the creation of an HBase cluster. 
+
+ - **Subscription**: *Should be autopopulated with the subscription details*
+ - **Region**: Enter the name of the region of deployment
+
+
  - **Cluster Name**: *Enter the cluster name. A green tick will appear if the cluster name is available.*
  - **Region**: Enter the name of the region of deployment
  - **Cluster Type** : Cluster Type -  *HBase* 
@@ -18,7 +23,7 @@ To provision HDInsight HBase with Azure Management Portal, perform the below ste
  - **Resource Group**:*Put the cluster in the same resource group as the Storage account and MI.* 
 
 
-
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzE5NTM3NCwxMjAxMzc4NTk5XX0=
+eyJoaXN0b3J5IjpbLTE4OTM3Mzg5MzgsMTIwMTM3ODU5OV19
 -->
