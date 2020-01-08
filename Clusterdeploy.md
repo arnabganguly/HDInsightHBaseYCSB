@@ -12,18 +12,18 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Resource Group**: Enter a resource group for holding your HDInsight HBase deployment
 
 
- - **Cluster Name**: *Enter the cluster name. A green tick will appear if the cluster name is available.*
+ - **Cluster Name**: Enter the cluster name. A green tick will appear if the cluster name is available.
  - **Region**: Enter the name of the region of deployment
  - **Cluster Type** : Cluster Type -  *HBase* 
   Version-   *HBase 2.0.0(HDI 4.0)* 
  - **Cluster login username**:Enter username for cluster administrator(default:admin) 
- - **Cluster login password**:*Enter password for cluster login(default:sshuser)*
- - **Confirm cluster login password**: *Enter the same password for cluster login(default:sshuser)*
- - *Check the box for Use cluster login password for SSH*
- - **Resource Group**:*Put the cluster in the same resource group as the Storage account and MI.* 
+ - **Cluster login password**:Enter password for cluster login(*default:sshuser*)
+ - **Use cluster login password for SSH**: Enter the same password for cluster login(*default:sshuser*)
+ - Check the box for Use cluster login password for SSH
+
 
 
 4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzIxNDk2NDAsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTE1Mzc0MjQ0MzcsMTIwMTM3ODU5OV19
 -->
