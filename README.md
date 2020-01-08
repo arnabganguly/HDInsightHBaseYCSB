@@ -1,8 +1,6 @@
-# HDInsightHBaseYCSB
-Compare YCSB test results on HDInsight HBase clusters with and without Accelerated Writes 
-
+# Azure HDInsight - Big data processing using LLAP on Azure HDInsight
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIxNzU2OTRdfQ==
+eyJoaXN0b3J5IjpbLTEyODIyNzIxNTldfQ==
 -->
