@@ -18,14 +18,9 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
   Version-   *HBase 2.0.0(HDI 4.0)* 
  - **Cluster login username**:Enter username for cluster administrator(default:admin)
  - **Cluster login password**:Enter password for cluster login(*default:sshuser*)
- -  - **Confirm Cluster login password**: Confirm the password entered in the last step 
- - **Secure Shell(SSH) username**: Enter
- - **Use cluster login**: Enter the same password for cluster login(*default:sshuser*)
- - Check the box for Use cluster login password for SSH
-
-
-
-4. 
+ - **Confirm Cluster login password**: Confirm the password entered in the last step 
+ - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
+ - **Use cluster login password for SSH**: Check the box to use the same password for both Ambari Logins and SSH logins
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODgyMjQwNzUsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbNTE2OTgyMTAsMTIwMTM3ODU5OV19
 -->
