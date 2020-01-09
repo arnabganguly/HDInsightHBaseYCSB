@@ -6,10 +6,12 @@
     ```
     ssh <sshuser>@<clustername>.azurehdinsight.net
     ```
+3. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjEzMzcwLDE1MTEyMTIyOTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MT
+EyMTIyOTZdfQ==
 -->
