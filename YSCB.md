@@ -6,13 +6,18 @@
     ```
     ssh <sshuser>@<clustername>.azurehdinsight.net
     ```
-3. Download the YCSB repo from the below destination 
-4. 
+3. Download the YCSB repository from the below destination 
+```
+curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz
+```
+4. Run the below steps to create the HBase tables which will be used to load the datasets
+```hbase shell ```
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODgyNzk4MywtMTU2MTM4MzI3MywxNT
+eyJoaXN0b3J5IjpbMTA2MDgzNzcyNywtMTU2MTM4MzI3MywxNT
 QyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
