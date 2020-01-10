@@ -12,12 +12,14 @@
 ```hbase shell ```
 - Set a parameter for the number of table splits
 ```
-n_splits = 200 # HBase recommends (10 * number of regionservers)```
-
+n_splits = 200 # HBase recommends (10 * number of regionservers)
+```
 - Set the table splits and then create the HBase table which would be used to run the tests 
-```create 'usertable', {NAME => 'f1', VERSIONS => '1', COMPRESSION => 'LZO'}```
+```
+
+create 'usertable', {NAME => 'f1', VERSIONS => '1', COMPRESSION => 'LZO'}```
 - Exit the HBase shell
-```exit
+```exit```
 
 3. Download the YCSB repository from the below destination
   ``` curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz ```
@@ -35,8 +37,8 @@ run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU0MDQwNDgsMzYxMDI2NDQzLDE1OT
-A3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3
-OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3My
-wxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
+eyJoaXN0b3J5IjpbMTM5MzM3NTU2MCwzNjEwMjY0NDMsMTU5MD
+c0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4Nzc5
+MCwtMTY3MTAxMjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLD
+E1NDIxMzM3MCwxNTExMjEyMjk2XX0=
 -->
