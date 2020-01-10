@@ -18,7 +18,7 @@
 3. Download the YCSB repository from the below destination
   ``` curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz ```
 
-4. this 
+4. This should create a table on the cloud 
 ```
 
 
@@ -27,7 +27,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTM5MzQ0OSwtMTY3MTAxMjI1LC0xOT
-EzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEy
-Mjk2XX0=
+eyJoaXN0b3J5IjpbMTc4MTI2OTIyLC0xNjcxMDEyMjUsLTE5MT
+M0NjE0MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEyMTIy
+OTZdfQ==
 -->
