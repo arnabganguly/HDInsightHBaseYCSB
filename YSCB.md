@@ -28,7 +28,7 @@ hbase(main):020:0> exit
 - This would create a  ycsb-0.17.0 folder. Move into this folder
 ``` $ cd ycsb-0.17.0 ```
 
-### 4. Run a write heavy workload 
+### 4. Run a write heavy workload in both clusters  
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 ```
@@ -67,22 +67,23 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 [INSERT], Return=OK, 1000000
 ```
 
-### Explore the outcome of the test
+### Explore the outcome of the test - Accelerated writes and Regular 
 
 -  The test took 538663 milliseconds to run
--  All inputs were completed succesfully , Return=OK, 1000000
+-  All inputs were completed successfully , Return=OK, 1000000
 - Write throughout was at 1856 operations per second
 - 95% of the inserts had a latency of 3389 milliseconds
 - Few inserts took more time , perhaps they were blocked by region severs due to the high workload
-- 
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTY1NjQxOSwxNDc2NTA4MzIzLDk4ND
-IxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2
-NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LD
-IzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5
-MTksLTIwODAzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLT
-E5MTM0NjE0MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEy
-MTIyOTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NTIzNjE1NTUsMTQ3NjUwODMyMyw5OD
+QyMTQ0NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1
+NjU4NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOS
+wyMzk0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIz
+OTE5LC0yMDgwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC
+0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTEx
+MjEyMjk2XX0=
 -->
