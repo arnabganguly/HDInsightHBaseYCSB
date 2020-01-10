@@ -17,6 +17,9 @@ n_splits = 200 # HBase recommends (10 * number of regionservers)
 - Set the table splits and then create the HBase table which would be used to run the tests 
 ```
 
+hbase(main):005:0* n_splits = 200 # HBase recommends (10 * number of regionservers)```
+
+
 create 'usertable', {NAME => 'f1', VERSIONS => '1', COMPRESSION => 'LZO'}```
 - Exit the HBase shell
 ```exit```
@@ -37,8 +40,8 @@ run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzM3NTU2MCwzNjEwMjY0NDMsMTU5MD
-c0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4Nzc5
-MCwtMTY3MTAxMjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLD
-E1NDIxMzM3MCwxNTExMjEyMjk2XX0=
+eyJoaXN0b3J5IjpbNTc2ODE3NzM0LDM2MTAyNjQ0MywxNTkwNz
+QyMDg2LDEwNTExMjM5MTksLTIwODAzNDQzMDksLTE1NDg3Nzkw
+LC0xNjcxMDEyMjUsLTE5MTM0NjE0MjAsLTE1NjEzODMyNzMsMT
+U0MjEzMzcwLDE1MTEyMTIyOTZdfQ==
 -->
