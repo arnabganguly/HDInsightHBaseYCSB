@@ -20,15 +20,15 @@
 
 4. Unzip the folder to access the contents
 ```tar xfvz ycsb-0.17.0.tar.gz ```
-5. Check to see if you have the folder available. 
-```
-
+5. This would create a  ycsb-0.17.0 folder. Move into this folder
+``` cd ycsb-0.17.0 ```
+6. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0MTcxOTc4LC0xNTQ4Nzc5MCwtMTY3MT
-AxMjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3
-MCwxNTExMjEyMjk2XX0=
+eyJoaXN0b3J5IjpbMjEwMDE1NzEyNiwtMTU0ODc3OTAsLTE2Nz
+EwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3MywxNTQyMTMz
+NzAsMTUxMTIxMjI5Nl19
 -->
