@@ -31,20 +31,20 @@ hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "
 - This would create a  ycsb-0.17.0 folder. Move into this folder
 ``` cd ycsb-0.17.0 ```
 
-### Run a workload 
+### 4. Run a workload 
 
-6.  To start lets run a write heavy workload to load 1 million rows into previously created HBase tables.
+- To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 ```
-run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -s -cp /etc/hbase/conf | tee -a workloadb.dat
+run hbase12 -P workloads/workloadb -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -s -cp /etc/hbase/conf | tee -a workloadb.dat
 
 ```
 7. Explore the output of the cluster 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDU3NzIyLC00NjQ3NDI0MDcsMTE2MD
-UwOTExOSwyMzk0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4Niwx
-MDUxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MT
-AxMjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3
-MCwxNTExMjEyMjk2XX0=
+eyJoaXN0b3J5IjpbMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNj
+A1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYs
+MTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3OTAsLTE2Nz
+EwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3MywxNTQyMTMz
+NzAsMTUxMTIxMjI5Nl19
 -->
