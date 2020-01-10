@@ -22,14 +22,16 @@
 ```tar xfvz ycsb-0.17.0.tar.gz ```
 5. This would create a  ycsb-0.17.0 folder. Move into this folder
 ``` cd ycsb-0.17.0 ```
-6.  To start lets run a data load workload into the HBase tables.
+6.  To start lets run a data load 1 million rows into the HBase tables.
+```
+run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -s -cp /etc/hbase/conf | tee -a workloadb.dat
+
 ```
 
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMT
-U0ODc3OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4
-MzI3MywxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
+eyJoaXN0b3J5IjpbMjA2NDU0NDc0NiwxMDUxMTIzOTE5LC0yMD
+gwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYx
+NDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX
+0=
 -->
