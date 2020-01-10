@@ -21,6 +21,7 @@ n_splits = 200 # HBase recommends (10 * number of regionservers)
 ```
 hbase(main):018:0> n_splits = 100
 hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "user#{1000+i*(9999-1000)/n_splits}"}}
+hbase(main):01:0>
 ```
 ### 3. Download the YSCB Repo 
 - Download the YCSB repository from the below destination
@@ -35,7 +36,7 @@ hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 ```
-bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
+$ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
 
 2020-01-10 16:21:40:213 10 sec: 15451 operations; 1545.1 current ops/sec; est completion in 10 minutes [INSERT: Count=15452, Max=120319, Min=1249, Avg=2312.21, 90=2625, 99=7915, 99.9=19551, 99.99=113855]
 2020-01-10 16:21:50:213 20 sec: 34012 operations; 1856.1 current ops/sec; est completion in 9 minutes [INSERT: Count=18560, Max=305663, Min=1230, Avg=2146.57, 90=2341, 99=5975, 99.9=11151, 99.99=296703]
@@ -74,7 +75,7 @@ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNTg4MjU0LC0xMDUxNjU2NTg3LDE3Nz
+eyJoaXN0b3J5IjpbODY1NjU5MjcyLC0xMDUxNjU2NTg3LDE3Nz
 M4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4
 LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwOD
 AzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MTM0NjE0
