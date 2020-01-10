@@ -71,14 +71,15 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 -  The test took 538663 milliseconds to run.
 -  All inputs were completed succesfully , Return=OK, 1000000
-- 
+- 95% of the inserts we
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxND
-Q1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgz
-MzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5OCwzNj
-EwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0
-MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYxNDIwLC
-0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX0=
+eyJoaXN0b3J5IjpbLTE3NTczMTc2NDQsMTQ3NjUwODMyMyw5OD
+QyMTQ0NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1
+NjU4NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOS
+wyMzk0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIz
+OTE5LC0yMDgwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC
+0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTEx
+MjEyMjk2XX0=
 -->
