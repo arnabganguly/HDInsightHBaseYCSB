@@ -68,20 +68,16 @@ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=
 [INSERT], 95thPercentileLatency(us), 3389
 [INSERT], 99thPercentileLatency(us), 6935
 [INSERT], Return=OK, 1000000
-
-
-
-
 ```
 7. Explore the outcome of the test 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzU1NzQxOCwtMTA1MTY1NjU4NywxNz
-czODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5
-OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMD
-gwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYx
-NDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX
-0=
+eyJoaXN0b3J5IjpbNzAxNTg4MjU0LC0xMDUxNjU2NTg3LDE3Nz
+M4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4
+LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwOD
+AzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MTM0NjE0
+MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEyMTIyOTZdfQ
+==
 -->
