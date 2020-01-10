@@ -26,7 +26,9 @@ $ curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/
   ```
 
 - Unzip the folder to access the contents
-```$ tar xfvz ycsb-0.17.0.tar.gz ```
+```
+$ tar xfvz ycsb-0.17.0.tar.gz 
+```
 - This would create a  ycsb-0.17.0 folder. Move into this folder
 ``` $ cd ycsb-0.17.0 ```
 
@@ -87,7 +89,7 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgwNjYxNjYsMTYzNjExODQ2NCwxND
+eyJoaXN0b3J5IjpbLTExNDE1NTk2OTgsMTYzNjExODQ2NCwxND
 c2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3
 OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNy
 wxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQy
