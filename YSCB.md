@@ -11,14 +11,17 @@
  
  - Launch the HBase Shell
 ```hbase shell ```
-- Create the HBase tables 
+- At the HBase shell create the HBase table which would be used to run the tests 
+```create 'usertable', {NAME => 'f1', VERSIONS => '1', COMPRESSION => 'LZO'}```
+- Exit the HBase shell
 - 
 
 
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY1NDgyNzUsLTE1NjEzODMyNzMsMT
-U0MjEzMzcwLDE1MTEyMTIyOTZdfQ==
+eyJoaXN0b3J5IjpbMTQyMDAyNjg3NywtMTU2MTM4MzI3MywxNT
+QyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
