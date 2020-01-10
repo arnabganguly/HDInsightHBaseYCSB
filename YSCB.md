@@ -37,7 +37,7 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 
-#### HDInsight HBase acclerated write Cluster 
+#### HDInsight HBase with accelerated writes
 ```
 $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
 
@@ -73,12 +73,8 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 [INSERT], 99thPercentileLatency(us), 6935
 [INSERT], Return=OK, 1000000
 ```
-#### HDIsight HBase regular cluster 
 
-
-
-
-### Explore the outcome of the test - Accelerated writes and Regular 
+#### Explore the outcome of the test - Accelerated writes and Regular 
 
 -  The test took 538663 milliseconds to run
 -  All inputs were completed successfully , Return=OK, 1000000
@@ -86,15 +82,15 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 - 95% of the inserts had a latency of 3389 milliseconds
 - Few inserts took more time , perhaps they were blocked by region severs due to the high workload
 
-
+### HDInsight 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMxNDYzNjgsLTExNDE1NTk2OTgsMT
-YzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0NDU0
-NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMzOD
-AsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MTAy
-NjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwODAzNDQzMD
-ksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MTM0NjE0MjAsLTE1
-NjEzODMyNzNdfQ==
+eyJoaXN0b3J5IjpbMTMxMjEwOTY4NSwtMTE0MTU1OTY5OCwxNj
+M2MTE4NDY0LDE0NzY1MDgzMjMsOTg0MjE0NDU4LC0yMTQ0NTQ1
+NDI0LC0yNTI0Nzc5MTcsLTEwNTE2NTY1ODcsMTc3Mzg4MzM4MC
+wtNDY0NzQyNDA3LDExNjA1MDkxMTksMjM5NDUzOTgsMzYxMDI2
+NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMwOS
+wtMTU0ODc3OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2
+MTM4MzI3M119
 -->
