@@ -35,16 +35,17 @@ hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 ```
-run hbase12 -P workloads/workloadb -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -s -cp /etc/hbase/conf | tee -a workloadb.dat
+bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
 
 ```
-7. Explore the output of the cluster 
+7. Explore the outcome of the test 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNj
-A1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYs
-MTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3OTAsLTE2Nz
-EwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3MywxNTQyMTMz
-NzAsMTUxMTIxMjI5Nl19
+eyJoaXN0b3J5IjpbLTEwNTE2NTY1ODcsMTc3Mzg4MzM4MCwtND
+Y0NzQyNDA3LDExNjA1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQz
+LDE1OTA3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMT
+U0ODc3OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4
+MzI3MywxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
