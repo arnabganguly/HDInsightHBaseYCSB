@@ -22,14 +22,14 @@
 ```tar xfvz ycsb-0.17.0.tar.gz ```
 5. This would create a  ycsb-0.17.0 folder. Move into this folder
 ``` cd ycsb-0.17.0 ```
-6.  To start lets run a load workload into the cluster.
+6.  To start lets run a data load workload into the HBase tables.
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAzNDQzMDksLTE1NDg3NzkwLC0xNj
-cxMDEyMjUsLTE5MTM0NjE0MjAsLTE1NjEzODMyNzMsMTU0MjEz
-MzcwLDE1MTEyMTIyOTZdfQ==
+eyJoaXN0b3J5IjpbMTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMT
+U0ODc3OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4
+MzI3MywxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
