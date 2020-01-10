@@ -22,13 +22,13 @@
 ```tar xfvz ycsb-0.17.0.tar.gz ```
 5. This would create a  ycsb-0.17.0 folder. Move into this folder
 ``` cd ycsb-0.17.0 ```
-6. 
+6.  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDE1NzEyNiwtMTU0ODc3OTAsLTE2Nz
+eyJoaXN0b3J5IjpbLTQ3ODI5MjgzNCwtMTU0ODc3OTAsLTE2Nz
 EwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3MywxNTQyMTMz
 NzAsMTUxMTIxMjI5Nl19
 -->
