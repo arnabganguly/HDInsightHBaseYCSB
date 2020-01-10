@@ -1,5 +1,6 @@
 ## Setup and run YCSB tests on the clusters
 
+### Login ti
  1. Steps to set up and run YCSB tests on both clusters are identical. 
   2. On the cluster page on the Azure portal , navigate to the **SSH + Cluster login** and use the Hostname and SSH path to ssh into the
     cluster.  The path should have below format. 
@@ -36,9 +37,9 @@ run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOT
-Q1Mzk4LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTks
-LTIwODAzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MT
-M0NjE0MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEyMTIy
-OTZdfQ==
+eyJoaXN0b3J5IjpbMTgwMTIyMDI1NCwtNDY0NzQyNDA3LDExNj
+A1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYs
+MTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3OTAsLTE2Nz
+EwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3MywxNTQyMTMz
+NzAsMTUxMTIxMjI5Nl19
 -->
