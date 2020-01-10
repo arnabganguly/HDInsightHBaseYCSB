@@ -27,12 +27,12 @@
 run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -s -cp /etc/hbase/conf | tee -a workloadb.dat
 
 ```
-7. 
+7. Explore the output of the cluster 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMD
-gwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYx
-NDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX
-0=
+eyJoaXN0b3J5IjpbMzYxMDI2NDQzLDE1OTA3NDIwODYsMTA1MT
+EyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3OTAsLTE2NzEwMTIy
+NSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3MywxNTQyMTMzNzAsMT
+UxMTIxMjI5Nl19
 -->
