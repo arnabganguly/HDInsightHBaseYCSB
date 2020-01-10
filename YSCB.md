@@ -71,11 +71,12 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 -  The test took 538663 milliseconds to run.
 -  All inputs were completed succesfully , Return=OK, 1000000
-- 95% of the inserts we
+- 95% of the inserts had a latency of 3389 milliseconds
+- Few inserts took more time , perhaps they were 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTczMTc2NDQsMTQ3NjUwODMyMyw5OD
+eyJoaXN0b3J5IjpbLTIxMzEwMjM1MTIsMTQ3NjUwODMyMyw5OD
 QyMTQ0NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1
 NjU4NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOS
 wyMzk0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIz
