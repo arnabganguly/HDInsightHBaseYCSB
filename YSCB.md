@@ -16,12 +16,13 @@ n_splits = 200 # HBase recommends (10 * number of regionservers)
 ```
 - Set the table splits (*10 * Number of Region Servers*) and then create the HBase table which would be used to run the tests 
 ```
-
-hbase(main):005:0* n_splits = 100 # ( I have 10 Region servers in the Lab so 10 * 10 = 100)
-
-hbase(main):006:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "user#{1000+i*(9999-1000)/n_splits}"}}
-
-xit```
+hbase(main):018:0> n_splits = 100
+=> 100
+hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "user#{1000+i*(9999-1000)/n_splits}"}}
+Created table usertable
+Took 18.2968 seconds
+=> Hbase::Table - usertable
+```
 
 3. Download the YCSB repository from the below destination
   ``` curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz ```
@@ -39,8 +40,9 @@ run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDUwOTExOSwyMzk0NTM5OCwzNjEwMj
-Y0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5
-LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYxNDIwLC0xNT
-YxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX0=
+eyJoaXN0b3J5IjpbLTM3NjkzNDc3NiwxMTYwNTA5MTE5LDIzOT
+Q1Mzk4LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTks
+LTIwODAzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MT
+M0NjE0MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEyMTIy
+OTZdfQ==
 -->
