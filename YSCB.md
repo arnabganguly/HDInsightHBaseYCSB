@@ -14,7 +14,9 @@
 - At the HBase shell create the HBase table which would be used to run the tests 
 ```create 'usertable', {NAME => 'f1', VERSIONS => '1', COMPRESSION => 'LZO'}```
 - Exit the HBase shell
-- 
+```exit```
+
+4. 
 
 
 
@@ -22,6 +24,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDAyNjg3NywtMTU2MTM4MzI3MywxNT
-QyMTMzNzAsMTUxMTIxMjI5Nl19
+eyJoaXN0b3J5IjpbLTEzODU3OTUwOTIsLTE1NjEzODMyNzMsMT
+U0MjEzMzcwLDE1MTEyMTIyOTZdfQ==
 -->
