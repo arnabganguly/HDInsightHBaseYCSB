@@ -70,12 +70,12 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 ### Explore the outcome of the test
 
 -  The test took 538663 milliseconds to run.
--  All inputs were completed succesfu
+-  All inputs were completed succesfully , Return=OK, 1000000
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk1OTcyNiw5ODQyMTQ0NTgsLTIxND
+eyJoaXN0b3J5IjpbMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxND
 Q1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgz
 MzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5OCwzNj
 EwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0
