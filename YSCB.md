@@ -31,6 +31,8 @@ hbase(main):020:0> exit
 ### 4. Run a write heavy workload in both clusters  
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
+
+#### Acclerated write Cluster 
 ```
 $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
 
@@ -66,6 +68,8 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 [INSERT], 99thPercentileLatency(us), 6935
 [INSERT], Return=OK, 1000000
 ```
+#### Regular cluster 
+
 
 ### Explore the outcome of the test - Accelerated writes and Regular 
 
@@ -79,7 +83,7 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIzNjE1NTUsMTQ3NjUwODMyMyw5OD
+eyJoaXN0b3J5IjpbLTE0ODM0MTg4MTAsMTQ3NjUwODMyMyw5OD
 QyMTQ0NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1
 NjU4NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOS
 wyMzk0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIz
