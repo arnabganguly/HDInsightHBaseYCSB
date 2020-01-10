@@ -6,12 +6,13 @@
     ```
     ssh <sshuser>@<clustername>.azurehdinsight.net
     ```
-3. 
+3. Download the YCSB repo from the below destination 
+4. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MT
-EyMTIyOTZdfQ==
+eyJoaXN0b3J5IjpbLTcwODgyNzk4MywtMTU2MTM4MzI3MywxNT
+QyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
