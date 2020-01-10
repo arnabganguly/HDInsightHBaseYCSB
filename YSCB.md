@@ -21,7 +21,9 @@ hbase(main):020:0> exit
 ```
 ### 3. Download the YSCB Repo 
 - Download the YCSB repository from the below destination
-  ``` $ curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz ```
+```
+$ curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz 
+  ```
 
 - Unzip the folder to access the contents
 ```$ tar xfvz ycsb-0.17.0.tar.gz ```
@@ -85,11 +87,11 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4ND
-IxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2
-NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LD
-IzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5
-MTksLTIwODAzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLT
-E5MTM0NjE0MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEy
-MTIyOTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMjgwNjYxNjYsMTYzNjExODQ2NCwxND
+c2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3
+OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNy
+wxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQy
+MDg2LDEwNTExMjM5MTksLTIwODAzNDQzMDksLTE1NDg3NzkwLC
+0xNjcxMDEyMjUsLTE5MTM0NjE0MjAsLTE1NjEzODMyNzMsMTU0
+MjEzMzcwXX0=
 -->
