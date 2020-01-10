@@ -18,7 +18,7 @@
 3. Download the YCSB repository from the below destination
   ``` curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz ```
 
-4. Navigate to the YCSB folder
+4. this 
 ```
 
 
@@ -27,6 +27,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMT
-U2MTM4MzI3MywxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
+eyJoaXN0b3J5IjpbMTE4MTM5MzQ0OSwtMTY3MTAxMjI1LC0xOT
+EzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEy
+Mjk2XX0=
 -->
