@@ -30,7 +30,8 @@ $ curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/
 $ tar xfvz ycsb-0.17.0.tar.gz 
 ```
 - This would create a  ycsb-0.17.0 folder. Move into this folder
-``` $ cd ycsb-0.17.0 ```
+``` $ cd ycsb-0.17.0 
+```
 
 ### 4. Run a write heavy workload in both clusters  
 
@@ -89,11 +90,11 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE1NTk2OTgsMTYzNjExODQ2NCwxND
-c2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3
-OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNy
-wxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQy
-MDg2LDEwNTExMjM5MTksLTIwODAzNDQzMDksLTE1NDg3NzkwLC
-0xNjcxMDEyMjUsLTE5MTM0NjE0MjAsLTE1NjEzODMyNzMsMTU0
-MjEzMzcwXX0=
+eyJoaXN0b3J5IjpbLTEyMjMxNDYzNjgsLTExNDE1NTk2OTgsMT
+YzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0NDU0
+NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMzOD
+AsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MTAy
+NjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwODAzNDQzMD
+ksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MTM0NjE0MjAsLTE1
+NjEzODMyNzNdfQ==
 -->
