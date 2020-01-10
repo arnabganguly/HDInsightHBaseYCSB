@@ -14,10 +14,10 @@
 ```
 n_splits = 200 # HBase recommends (10 * number of regionservers)
 ```
-- Set the table splits( 10 *  and then create the HBase table which would be used to run the tests 
+- Set the table splits (10 * Number of Region Servers) and then create the HBase table which would be used to run the tests 
 ```
 
-hbase(main):005:0* n_splits = 200 # HBase recommends (10 * number of regionservers)
+hbase(main):005:0* n_splits = 100 # ( I have 10 Region servers so 10 * 10 = 100)
 
 hbase(main):006:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "user#{1000+i*(9999-1000)/n_splits}"}}
 
@@ -39,8 +39,8 @@ run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA0OTk3MDcsMjM5NDUzOTgsMzYxMD
-I2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMw
-OSwtMTU0ODc3OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMT
-U2MTM4MzI3MywxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
+eyJoaXN0b3J5IjpbLTY4MDcwOTQyNCwyMzk0NTM5OCwzNjEwMj
+Y0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5
+LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYxNDIwLC0xNT
+YxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX0=
 -->
