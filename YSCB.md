@@ -31,7 +31,7 @@ hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "
 - This would create a  ycsb-0.17.0 folder. Move into this folder
 ``` cd ycsb-0.17.0 ```
 
-### 4. Run a workload 
+### 4. Run a write heavy workload 
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 ```
@@ -78,10 +78,10 @@ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY5NDM5NDAsLTEwNTE2NTY1ODcsMT
-c3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNjA1MDkxMTksMjM5NDUz
-OTgsMzYxMDI2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkxOSwtMj
-A4MDM0NDMwOSwtMTU0ODc3OTAsLTE2NzEwMTIyNSwtMTkxMzQ2
-MTQyMCwtMTU2MTM4MzI3MywxNTQyMTMzNzAsMTUxMTIxMjI5Nl
-19
+eyJoaXN0b3J5IjpbLTc2MzU1NzQxOCwtMTA1MTY1NjU4NywxNz
+czODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5
+OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMD
+gwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYx
+NDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX
+0=
 -->
