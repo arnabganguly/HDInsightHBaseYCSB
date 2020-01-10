@@ -1,11 +1,11 @@
 ## Setup and run YCSB tests on the clusters
 
  1. Steps to set up and run YCSB tests on both clusters are identical. 
-     - On the cluster page on the Azure portal , navigate to the **SSH + Cluster login** and use the Hostname and SSH path to ssh into the
+  2. On the cluster page on the Azure portal , navigate to the **SSH + Cluster login** and use the Hostname and SSH path to ssh into the
     cluster.  The path should have below format. 
     
     ``` ssh <sshuser>@<clustername>.azurehdinsight.net ```
-2. Download the YCSB repository from the below destination  ``` curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz
+3. Download the YCSB repository from the below destination  ``` curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz
     ```
  3. Run the below steps to create the HBase tables which will be used to load the datasets
  
@@ -24,6 +24,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU3OTUwOTIsLTE1NjEzODMyNzMsMT
-U0MjEzMzcwLDE1MTEyMTIyOTZdfQ==
+eyJoaXN0b3J5IjpbMTU0MjA4NDkyNCwtMTU2MTM4MzI3MywxNT
+QyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
