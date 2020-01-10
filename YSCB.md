@@ -69,16 +69,15 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 ### Explore the outcome of the test
 
-Explore the outcome of the test 
-
-The test took 538663 milliseconds to run.
+- The test took 538663 milliseconds to run.
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY0Mjg1MjgsLTIxNDQ1NDU0MjQsLT
-I1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgzMzgwLC00NjQ3
-NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5OCwzNjEwMjY0NDMsMT
-U5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4
-Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMj
-czLDE1NDIxMzM3MCwxNTExMjEyMjk2XX0=
+eyJoaXN0b3J5IjpbOTg0MjE0NDU4LC0yMTQ0NTQ1NDI0LC0yNT
+I0Nzc5MTcsLTEwNTE2NTY1ODcsMTc3Mzg4MzM4MCwtNDY0NzQy
+NDA3LDExNjA1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLDE1OT
+A3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3
+OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3My
+wxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
