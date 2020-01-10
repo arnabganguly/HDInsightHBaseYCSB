@@ -67,16 +67,18 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 [INSERT], Return=OK, 1000000
 ```
 
+### Explore the outcome of the test
 
-7. Explore the outcome of the test 
+Explore the outcome of the test 
 
-The test took 538663 milliseconds to run
+The test took 538663 milliseconds to run.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMT
-A1MTY1NjU4NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUw
-OTExOSwyMzk0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMD
-UxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAx
-MjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MC
-wxNTExMjEyMjk2XX0=
+eyJoaXN0b3J5IjpbLTE1MjY0Mjg1MjgsLTIxNDQ1NDU0MjQsLT
+I1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgzMzgwLC00NjQ3
+NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5OCwzNjEwMjY0NDMsMT
+U5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4
+Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMj
+czLDE1NDIxMzM3MCwxNTExMjEyMjk2XX0=
 -->
