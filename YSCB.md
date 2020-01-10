@@ -14,7 +14,7 @@
 ```
 n_splits = 200 # HBase recommends (10 * number of regionservers)
 ```
-- Set the table splits and then create the HBase table which would be used to run the tests 
+- Set the table splits( 10 *  and then create the HBase table which would be used to run the tests 
 ```
 
 hbase(main):005:0* n_splits = 200 # HBase recommends (10 * number of regionservers)
@@ -39,8 +39,8 @@ run hbase12 -P workloads/workloadb -p columnfamily=f1 -p recordcount=1000000 -p 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5NDUzOTgsMzYxMDI2NDQzLDE1OTA3ND
-IwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3OTAs
-LTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMTU2MTM4MzI3MywxNT
-QyMTMzNzAsMTUxMTIxMjI5Nl19
+eyJoaXN0b3J5IjpbLTEwMTA0OTk3MDcsMjM5NDUzOTgsMzYxMD
+I2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMw
+OSwtMTU0ODc3OTAsLTE2NzEwMTIyNSwtMTkxMzQ2MTQyMCwtMT
+U2MTM4MzI3MywxNTQyMTMzNzAsMTUxMTIxMjI5Nl19
 -->
