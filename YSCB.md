@@ -11,13 +11,9 @@
 ### 2. Create the Table 
 - Run the below steps to create the HBase tables which will be used to load the datasets
  
- - Launch the HBase Shell
-```hbase shell ```
-- Set a parameter for the number of table splits
-```
-n_splits = 200 # HBase recommends (10 * number of regionservers)
-```
-- Set the table splits (*10 * Number of Region Servers*) and then create the HBase table which would be used to run the tests 
+ - Launch the HBase Shell and set a parameter for the number of table splits. Set the table splits (*10 * Number of Region Servers*)
+ - Create the HBase table which would be used to run the tests
+ - Exit the HBase shell  
 ```
 hbase(main):018:0> n_splits = 100
 hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "user#{1000+i*(9999-1000)/n_splits}"}}
@@ -75,10 +71,10 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjgyMzg1LC0xMDUxNjU2NTg3LDE3Nz
-M4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4
-LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwOD
-AzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MTM0NjE0
-MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEyMTIyOTZdfQ
-==
+eyJoaXN0b3J5IjpbLTI1MjQ3NzkxNywtMTA1MTY1NjU4NywxNz
+czODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5
+OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMD
+gwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEzNDYx
+NDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3MCwxNTExMjEyMjk2XX
+0=
 -->
