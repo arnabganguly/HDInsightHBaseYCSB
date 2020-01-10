@@ -21,16 +21,16 @@ n_splits = 200 # HBase recommends (10 * number of regionservers)
 ```
 hbase(main):018:0> n_splits = 100
 hbase(main):019:0> create 'usertable', 'cf', {SPLITS => (1..n_splits).map {|i| "user#{1000+i*(9999-1000)/n_splits}"}}
-hbase(main):01:0>
+hbase(main):020:0> exit
 ```
 ### 3. Download the YSCB Repo 
 - Download the YCSB repository from the below destination
-  ``` curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz ```
+  ``` $ curl -O --location https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz ```
 
 - Unzip the folder to access the contents
-```tar xfvz ycsb-0.17.0.tar.gz ```
+```$ tar xfvz ycsb-0.17.0.tar.gz ```
 - This would create a  ycsb-0.17.0 folder. Move into this folder
-``` cd ycsb-0.17.0 ```
+``` $ cd ycsb-0.17.0 ```
 
 ### 4. Run a write heavy workload 
 
@@ -75,7 +75,7 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1NjU5MjcyLC0xMDUxNjU2NTg3LDE3Nz
+eyJoaXN0b3J5IjpbLTc4NjgyMzg1LC0xMDUxNjU2NTg3LDE3Nz
 M4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4
 LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwOD
 AzNDQzMDksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MTM0NjE0
