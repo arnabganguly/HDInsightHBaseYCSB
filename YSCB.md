@@ -20,14 +20,15 @@
 
 4. Unzip the folder to access the contents
 ```tar xfvz ycsb-0.17.0.tar.gz ```
-5. 
+5. Check to see if you have the folder available. 
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MT
-M0NjE0MjAsLTE1NjEzODMyNzMsMTU0MjEzMzcwLDE1MTEyMTIy
-OTZdfQ==
+eyJoaXN0b3J5IjpbNDc0MTcxOTc4LC0xNTQ4Nzc5MCwtMTY3MT
+AxMjI1LC0xOTEzNDYxNDIwLC0xNTYxMzgzMjczLDE1NDIxMzM3
+MCwxNTExMjEyMjk2XX0=
 -->
