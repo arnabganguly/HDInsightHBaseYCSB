@@ -43,6 +43,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image006.png)
+
 5. Leave the **Security+Networking** blade to its default settings with no changes and go to the **Configuration+pricing** tab. 
 
 
@@ -78,7 +79,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDQyNDM3MCwtNzM2MTMxNDcsMzE3OD
+eyJoaXN0b3J5IjpbLTUyMDY2OTUwOCwtNzM2MTMxNDcsMzE3OD
 gxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1LC00MzE1NDU5MjQs
 MTIwMTM3ODU5OV19
 -->
