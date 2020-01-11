@@ -50,9 +50,6 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 6. In the **Configuration+pricing** tab, note the **Node configuration** section now has a line Item titled **Premium disks per worker node**. 
 7. Choose the Region node to **10** and Node Size to **DS14v2**(*you could chooser smaller number and size also but ensure that the both clusters have identical number of nodes and VM SKU to ensure parity in comparison*) 
 
-![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image001.png)
-
-
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image007.png)
 
 8. Click **Next: Review + Create**
@@ -81,7 +78,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA4MDEyMDcsLTczNjEzMTQ3LDMxNz
-g4MTUwMiwtNzMzNzYyOTIyLDc4ODI4NTYxNSwtNDMxNTQ1OTI0
-LDEyMDEzNzg1OTldfQ==
+eyJoaXN0b3J5IjpbLTgzNDQyNDM3MCwtNzM2MTMxNDcsMzE3OD
+gxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1LC00MzE1NDU5MjQs
+MTIwMTM3ODU5OV19
 -->
