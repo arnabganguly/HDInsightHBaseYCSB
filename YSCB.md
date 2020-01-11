@@ -148,14 +148,22 @@ $ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], 99thPercentileLatency(us): 99% of INSERT operations have a data point below this value
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
 
+### Try out a few other workloads 
+Read Mostly : workloadb
+
+```
+bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloadbaggang.dat
+```
 
 
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1Njc5MTk1LDk5NTYyNDMzLDU1MzM5Nj
-c4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDksLTExNDE1NTk2OTgs
-MTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0ND
-U0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMz
-ODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MT
-AyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwODAzNDQz
-MDldfQ==
+eyJoaXN0b3J5IjpbLTc4Mjg4NDY1MiwzMTU2NzkxOTUsOTk1Nj
+I0MzMsNTUzMzk2Nzg5LDkwMzc0MjIxMywtMTI4NTE3Mjc0OSwt
+MTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0NzY1MDgzMjMsOTg0Mj
+E0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5MTcsLTEwNTE2NTY1
+ODcsMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNjA1MDkxMTksMj
+M5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkx
+OV19
 -->
