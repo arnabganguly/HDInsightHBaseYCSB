@@ -36,13 +36,13 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 ### 4. Run a write heavy workload in both clusters  
 
  - Use the below command to initiate a write heavy workload with the below parameters
-   - *-p workloads/workloada* : Indicates that the append workload *workloada* needs to be run
-   - -p table: Populate the name of your HBase table created earlier
-   - -p columnfamily: Populate the value of the HBase columfamily name from the table you created
-   - recordcount : Number of records to be inserted( we use 1 Million)
-   -  -p threadcount: Number of threads( this can be varied, but needs to be kept constant across experiments) 
-   - -cp /etc/hbase/conf: Pointer to HBase config settings
-   - -s | tee -a  : Provide a file name to write your output. 
+   - *workloads/workloada* : Indicates that the append workload *workloada* needs to be run
+   - *table*: Populate the name of your HBase table created earlier
+   - *columnfamily*: Populate the value of the HBase columfamily name from the table you created
+   - *recordcount* : Number of records to be inserted( we use 1 Million)
+   -  *threadcount*: Number of threads( this can be varied, but needs to be kept constant across experiments) 
+   - *-cp /etc/hbase/conf*: Pointer to HBase config settings
+   - *-s | tee -a*  : Provide a file name to write your output. 
   
  
 ```
@@ -153,7 +153,7 @@ $ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], 99thPercentileLatency(us): 99% of INSERT operations have a data point below this value
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzA2NjgyNCw5OTU2MjQzMyw1NTMzOT
+eyJoaXN0b3J5IjpbMTA2MDc1NTM5Miw5OTU2MjQzMyw1NTMzOT
 Y3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNTU5Njk4
 LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxND
 Q1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgz
