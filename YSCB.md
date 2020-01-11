@@ -126,13 +126,15 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 | [INSERT], Return=OK |  # of records| 1000000 | 1000000 |
 
 
- 
+ - [OVERALL], RunTime(ms) : Total execution time in milliseconds
+ - [OVERALL], Throughput(ops/sec) : Number of operations/sec across all threads
+ - [INSERT], 95thPercentileLatency(us): Number of
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM0NDE2NDMsNTUzMzk2Nzg5LDkwMz
-c0MjIxMywtMTI4NTE3Mjc0OSwtMTE0MTU1OTY5OCwxNjM2MTE4
-NDY0LDE0NzY1MDgzMjMsOTg0MjE0NDU4LC0yMTQ0NTQ1NDI0LC
-0yNTI0Nzc5MTcsLTEwNTE2NTY1ODcsMTc3Mzg4MzM4MCwtNDY0
-NzQyNDA3LDExNjA1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLD
-E1OTA3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0
-ODc3OTBdfQ==
+eyJoaXN0b3J5IjpbLTQ1Mjg0MjgwOCw1NTMzOTY3ODksOTAzNz
+QyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNTU5Njk4LDE2MzYxMTg0
+NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxNDQ1NDU0MjQsLT
+I1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgzMzgwLC00NjQ3
+NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5OCwzNjEwMjY0NDMsMT
+U5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4
+Nzc5MF19
 -->
