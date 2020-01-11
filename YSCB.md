@@ -84,14 +84,47 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 - Few inserts took more time , perhaps they were blocked by region severs due to the high workload
 
 ### HDInsight HBase without accelerated writes
+```
+2020-01-10 23:58:20:475 2574 sec: 1000000 operations; 333.72 current ops/sec; [CLEANUP: Count=8, Max=79679, Min=4, Avg=9996.38, 90=239, 99=79679, 99.9  =79679, 99.99=79679] [INSERT: Count=1426, Max=39839, Min=6136, Avg=9289.47, 90=13071, 99=27535, 99.9=38655, 99.99=39839]
+[OVERALL], RunTime(ms), 2574273
+[OVERALL], Throughput(ops/sec), 388.45918828344935
+[TOTAL_GCS_PS_Scavenge], Count, 908
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 3208
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.12461770760133055
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 908
+[TOTAL_GC_TIME], Time(ms), 3208
+[TOTAL_GC_TIME_%], Time(%), 0.12461770760133055
+[CLEANUP], Operations, 8
+[CLEANUP], AverageLatency(us), 9996.375
+[CLEANUP], MinLatency(us), 4
+[CLEANUP], MaxLatency(us), 79679
+[CLEANUP], 95thPercentileLatency(us), 79679
+[CLEANUP], 99thPercentileLatency(us), 79679
+[INSERT], Operations, 1000000
+[INSERT], AverageLatency(us), 10285.497832
+[INSERT], MinLatency(us), 5568
+[INSERT], MaxLatency(us), 1307647
+[INSERT], 95thPercentileLatency(us), 18751
+[INSERT], 99thPercentileLatency(us), 33759
+[INSERT], Return=OK, 1000000
 
+```
 
+### Comparison of the numbers with explanation
+
+|  |  |
+|--|--|
+|  |  |
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzMzk2Nzg5LDkwMzc0MjIxMywtMTI4NT
-E3Mjc0OSwtMTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0NzY1MDgz
-MjMsOTg0MjE0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5MTcsLT
-EwNTE2NTY1ODcsMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNjA1
-MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYsMT
-A1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3OTAsLTE2NzEw
-MTIyNV19
+eyJoaXN0b3J5IjpbMTkzMzY4MDgyNCw1NTMzOTY3ODksOTAzNz
+QyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNTU5Njk4LDE2MzYxMTg0
+NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxNDQ1NDU0MjQsLT
+I1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgzMzgwLC00NjQ3
+NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5OCwzNjEwMjY0NDMsMT
+U5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0MzA5LC0xNTQ4
+Nzc5MF19
 -->
