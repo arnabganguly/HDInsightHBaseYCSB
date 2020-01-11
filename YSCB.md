@@ -166,9 +166,9 @@ bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=c
 | [OVERALL], Throughput(ops/sec) |  Operations/sec| 3424 | 2537 |
 | [READ], Operations |  Operations/sec| 949833 | 949586|
 | [UPDATE], Operations|  Operations/sec| 50167 | 50414|
-| [READ], 95thPercentileLatency(us) |  Microseconds| 1385 | 1576 |
-| [READ], 99thPercentileLatency(us) | Microseconds| 3717 | 3941 |
-| [READ], Return=OK |  # of records| 94943 | 95227 |
+| [READ], 95thPercentileLatency(us) |  Microseconds| 1401 | 3395 |
+| [READ], 99thPercentileLatency(us) | Microseconds| 1387 | 3611 |
+| [READ], Return=OK |  # of records| 949833 | 949586 |
 
 
 **Read Only** : workloadc
@@ -187,7 +187,7 @@ bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=c
 | [READ], Return=OK |  # of records| 1000000 | 1000000 |
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTQzMTk1OSwxMjY2NDI5NSwyMDYwND
+eyJoaXN0b3J5IjpbLTE1OTQxMDk5OSwxMjY2NDI5NSwyMDYwND
 E1MTQyLC0xMTIwNTc2MTkwLDMxNTY3OTE5NSw5OTU2MjQzMyw1
 NTMzOTY3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNT
 U5Njk4LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgs
