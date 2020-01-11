@@ -48,31 +48,33 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 2020-01-10 16:30:10:213 520 sec: 972048 operations; 1866.7 current ops/sec; est completion in 15 seconds [INSERT: Count=18667, Max=91199, Min=1209, Avg=2140.52, 90=2469, 99=7091, 99.9=22591, 99.99=66239]
 2020-01-10 16:30:20:214 530 sec: 988005 operations; 1595.7 current ops/sec; est completion in 7 second [INSERT: Count=15957, Max=38847, Min=1257, Avg=2502.91, 90=3707, 99=8303, 99.9=21711, 99.99=38015]
 ...
-2020-01-10 16:30:28:875 538 sec: 1000000 operations; 1384.78 current ops/sec; [CLEANUP: Count=8, Max=66623, Min=3, Avg=8370.12, 90=238, 99=66623, 99.9=66623, 99.99=66623] [INSERT: Count=11995, Max=91647, Min=1260, Avg=2811.37, 90=4411, 99=9911, 99.9=22511, 99.99=91455]
-[OVERALL], RunTime(ms), 538663
-[OVERALL], Throughput(ops/sec), 1856.4482802791356
-[TOTAL_GCS_PS_Scavenge], Count, 779
-[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2540
-[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.47153786319090046
+...
+2020-01-11 00:22:06:192 564 sec: 1000000 operations; 1792.97 current ops/sec; [CLEANUP: Count=8, Max=80447, Min=5, Avg=10105.12, 90=268, 99=80447, 99.9=80447, 99.99=80447] [INSERT: Count=8512, Max=16639, Min=1200, Avg=2042.62, 90=2323, 99=6743, 99.9=11487, 99.99=16495]
+[OVERALL], RunTime(ms), 564748
+[OVERALL], Throughput(ops/sec), 1770.7012685303887
+[TOTAL_GCS_PS_Scavenge], Count, 871
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 3116
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.5517505152740692
 [TOTAL_GCS_PS_MarkSweep], Count, 0
 [TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
 [TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
-[TOTAL_GCs], Count, 779
-[TOTAL_GC_TIME], Time(ms), 2540
-[TOTAL_GC_TIME_%], Time(%), 0.47153786319090046
+[TOTAL_GCs], Count, 871
+[TOTAL_GC_TIME], Time(ms), 3116
+[TOTAL_GC_TIME_%], Time(%), 0.5517505152740692
 [CLEANUP], Operations, 8
-[CLEANUP], AverageLatency(us), 8370.125
-[CLEANUP], MinLatency(us), 3
-[CLEANUP], MaxLatency(us), 66623
-[CLEANUP], 95thPercentileLatency(us), 66623
-[CLEANUP], 99thPercentileLatency(us), 66623
+[CLEANUP], AverageLatency(us), 10105.125
+[CLEANUP], MinLatency(us), 5
+[CLEANUP], MaxLatency(us), 80447
+[CLEANUP], 95thPercentileLatency(us), 80447
+[CLEANUP], 99thPercentileLatency(us), 80447
 [INSERT], Operations, 1000000
-[INSERT], AverageLatency(us), 2145.563448
-[INSERT], MinLatency(us), 1128
-[INSERT], MaxLatency(us), 305663
-[INSERT], 95thPercentileLatency(us), 3389
-[INSERT], 99thPercentileLatency(us), 6935
+[INSERT], AverageLatency(us), 2248.752362
+[INSERT], MinLatency(us), 1120
+[INSERT], MaxLatency(us), 498687
+[INSERT], 95thPercentileLatency(us), 3623
+[INSERT], 99thPercentileLatency(us), 7375
 [INSERT], Return=OK, 1000000
+
 ```
 
 #### Explore the outcome of the test - Accelerated writes and Regular 
@@ -117,12 +119,12 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 | Parameter |Unit |With Accelerated writes  | Withot ecclerated writes |
 |--|--|--|--|
-| [OVERALL], RunTime(ms) |  |  |  |
+| [OVERALL], RunTime(ms) |  Milliseconds|  |  |
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTczMzk5NSw1NTMzOTY3ODksOTAzNz
+eyJoaXN0b3J5IjpbLTY2MjMxMjIxMyw1NTMzOTY3ODksOTAzNz
 QyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNTU5Njk4LDE2MzYxMTg0
 NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxNDQ1NDU0MjQsLT
 I1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgzMzgwLC00NjQ3
