@@ -155,7 +155,7 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
 
 ### Try out a few other workloads and compare
-**Read Mostly** : workloadb
+**Read Mostly**(95% Read & 5% Write) : workloadb 
 ```
 bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloadb.dat
 ```
@@ -164,7 +164,7 @@ bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=c
 |--|--|--|--|
 | [OVERALL], RunTime(ms) |  Milliseconds| 29244 | 39410 |
 | [OVERALL], Throughput(ops/sec) |  Operations/sec| 3419 | 2537 |
-| [READ], Operations |  Operations/sec| 3419 | 2537 |
+| [READ], Operations |  Operations/sec| 94943 | 95227 |
 | [INSERT], Operations |  # of Operations| 1000000 | 1000000 |
 | [INSERT], 95thPercentileLatency(us) |  Microseconds| 3623 | 18751 |
 | [INSERT], 99thPercentileLatency(us) | Microseconds| 7375 | 33759 |
@@ -188,7 +188,7 @@ bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=c
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTMwMDAxMywtMTEyMDU3NjE5MCwzMT
+eyJoaXN0b3J5IjpbMTcwMTU1Mzc2NiwtMTEyMDU3NjE5MCwzMT
 U2NzkxOTUsOTk1NjI0MzMsNTUzMzk2Nzg5LDkwMzc0MjIxMywt
 MTI4NTE3Mjc0OSwtMTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0Nz
 Y1MDgzMjMsOTg0MjE0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5
