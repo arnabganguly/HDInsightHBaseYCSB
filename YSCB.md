@@ -10,7 +10,7 @@
     ssh <sshuser>@<clustername>.azurehdinsight.net 
     ```
     
-![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image011.png)
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image012.png)
 
 
 
@@ -170,11 +170,11 @@ bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=c
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MzA3Mjk5LDMxNTY3OTE5NSw5OTU2Mj
-QzMyw1NTMzOTY3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0x
-MTQxNTU5Njk4LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMT
-Q0NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4
-NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMz
-k0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5
-XX0=
+eyJoaXN0b3J5IjpbLTExMjA1NzYxOTAsMzE1Njc5MTk1LDk5NT
+YyNDMzLDU1MzM5Njc4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDks
+LTExNDE1NTk2OTgsMTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4ND
+IxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2
+NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LD
+IzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5
+MTldfQ==
 -->
