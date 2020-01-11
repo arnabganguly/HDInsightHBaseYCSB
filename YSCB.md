@@ -35,6 +35,10 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 
 ### 4. Run a write heavy workload in both clusters  
 
+- Use the below command to initiate a write heavy workload
+```
+ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
+ ```
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 >  Ignore the warnings that you may see after submitting the command. 
 
@@ -134,7 +138,7 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], 99thPercentileLatency(us): 99% of INSERT operations have a data point below this value
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3ODQ5NDc5LDk5NTYyNDMzLDU1MzM5Nj
+eyJoaXN0b3J5IjpbOTg0MzI1OTY0LDk5NTYyNDMzLDU1MzM5Nj
 c4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDksLTExNDE1NTk2OTgs
 MTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0ND
 U0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMz
