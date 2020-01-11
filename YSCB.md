@@ -36,7 +36,7 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 ### 4. Run a write heavy workload in both clusters  
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
-
+>  Ignore the warnings that you may see after submitting the command. 
 
 #### HDInsight HBase with accelerated writes
 ```
@@ -87,11 +87,11 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0xMT
-QxNTU5Njk4LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMTQ0
-NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4Ny
-wxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0
-NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC
-0yMDgwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEz
-NDYxNDIwXX0=
+eyJoaXN0b3J5IjpbNTUzMzk2Nzg5LDkwMzc0MjIxMywtMTI4NT
+E3Mjc0OSwtMTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0NzY1MDgz
+MjMsOTg0MjE0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5MTcsLT
+EwNTE2NTY1ODcsMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNjA1
+MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYsMT
+A1MTEyMzkxOSwtMjA4MDM0NDMwOSwtMTU0ODc3OTAsLTE2NzEw
+MTIyNV19
 -->
