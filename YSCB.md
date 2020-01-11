@@ -115,14 +115,14 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 ### Comparison of the numbers with explanation
 
-|  |  |  
-|--|--|--|
-|  |  |  
+|  |  |  |  
+|--|--|--|--|
+|  |  |  |
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwOTY5NTAwLDU1MzM5Njc4OSw5MDM3ND
+eyJoaXN0b3J5IjpbODU2MTE3ODUyLDU1MzM5Njc4OSw5MDM3ND
 IyMTMsLTEyODUxNzI3NDksLTExNDE1NTk2OTgsMTYzNjExODQ2
 NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0NDU0NTQyNCwtMj
 UyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMzODAsLTQ2NDc0
