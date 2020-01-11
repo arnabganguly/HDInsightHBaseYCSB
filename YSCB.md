@@ -46,7 +46,7 @@ $ tar xfvz ycsb-0.17.0.tar.gz
   
  
 ```
- bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
+ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
  ```
 
 - Run the  write heavy workload to load 1 million rows into previously created HBase table.
@@ -54,7 +54,7 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 
 #### HDInsight HBase with accelerated writes
 ```
-$ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
+$ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
 
 2020-01-10 16:21:40:213 10 sec: 15451 operations; 1545.1 current ops/sec; est completion in 10 minutes [INSERT: Count=15452, Max=120319, Min=1249, Avg=2312.21, 90=2625, 99=7915, 99.9=19551, 99.99=113855]
 2020-01-10 16:21:50:213 20 sec: 34012 operations; 1856.1 current ops/sec; est completion in 9 minutes [INSERT: Count=18560, Max=305663, Min=1230, Avg=2146.57, 90=2341, 99=5975, 99.9=11151, 99.99=296703]
@@ -152,18 +152,20 @@ $ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamil
 Read Mostly : workloadb
 
 ```
-bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloadbaggang.dat
+bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloadb.dat
 ```
+
+Read Only : workloadc
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Mjg4NDY1MiwzMTU2NzkxOTUsOTk1Nj
-I0MzMsNTUzMzk2Nzg5LDkwMzc0MjIxMywtMTI4NTE3Mjc0OSwt
-MTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0NzY1MDgzMjMsOTg0Mj
-E0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5MTcsLTEwNTE2NTY1
-ODcsMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNjA1MDkxMTksMj
-M5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkx
-OV19
+eyJoaXN0b3J5IjpbNDQyMzkyOTQzLDMxNTY3OTE5NSw5OTU2Mj
+QzMyw1NTMzOTY3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0x
+MTQxNTU5Njk4LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMT
+Q0NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4
+NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMz
+k0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5
+XX0=
 -->
