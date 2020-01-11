@@ -160,21 +160,38 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloadb.dat
 ```
 
+| Parameter |Unit |With Accelerated writes  | Without Accelerated writes |
+|--|--|--|--|
+| [OVERALL], RunTime(ms) |  Milliseconds| 567478 | 2574273 |
+| [OVERALL], Throughput(ops/sec) |  Operations/sec| 1770 | 388 |
+| [INSERT], Operations |  # of Operations| 1000000 | 1000000 |
+| [INSERT], 95thPercentileLatency(us) |  Microseconds| 3623 | 18751 |
+| [INSERT], 99thPercentileLatency(us) | Microseconds| 7375 | 33759 |
+| [INSERT], Return=OK |  # of records| 1000000 | 1000000 |
+
+
 **Read Only** : workloadc
 ```
 bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p operationcount=100000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloadc.dat
 ```
 
 
-
+| Parameter |Unit |With Accelerated writes  | Without Accelerated writes |
+|--|--|--|--|
+| [OVERALL], RunTime(ms) |  Milliseconds| 567478 | 2574273 |
+| [OVERALL], Throughput(ops/sec) |  Operations/sec| 1770 | 388 |
+| [INSERT], Operations |  # of Operations| 1000000 | 1000000 |
+| [INSERT], 95thPercentileLatency(us) |  Microseconds| 3623 | 18751 |
+| [INSERT], 99thPercentileLatency(us) | Microseconds| 7375 | 33759 |
+| [INSERT], Return=OK |  # of records| 1000000 | 1000000 |
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjA1NzYxOTAsMzE1Njc5MTk1LDk5NT
-YyNDMzLDU1MzM5Njc4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDks
-LTExNDE1NTk2OTgsMTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4ND
-IxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2
-NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LD
-IzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5
-MTldfQ==
+eyJoaXN0b3J5IjpbMTU1MTI1MjQ5MiwtMTEyMDU3NjE5MCwzMT
+U2NzkxOTUsOTk1NjI0MzMsNTUzMzk2Nzg5LDkwMzc0MjIxMywt
+MTI4NTE3Mjc0OSwtMTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0Nz
+Y1MDgzMjMsOTg0MjE0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5
+MTcsLTEwNTE2NTY1ODcsMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LD
+ExNjA1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIw
+ODZdfQ==
 -->
