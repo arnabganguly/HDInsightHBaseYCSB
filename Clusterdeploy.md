@@ -50,11 +50,11 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 15. Now that we are done with cluster deployments , in the next section we would set up and run  YCSB tests on both these clusters. 
 
 
-[NEXT-->]
+[NEXT-->](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/YSCB.md)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MTgwNjk4LDMxNzg4MTUwMiwtNzMzNz
+eyJoaXN0b3J5IjpbLTczNjEzMTQ3LDMxNzg4MTUwMiwtNzMzNz
 YyOTIyLDc4ODI4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTld
 fQ==
 -->
