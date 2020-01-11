@@ -29,18 +29,28 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Confirm Cluster login password**: Confirm the password entered in the last step 
  - **Secure Shell(SSH) username**: Enter the SSH login user  (*default:sshuser*)
  - **Use cluster login password for SSH**: Check the box to use the same password for both SSH logins and Ambari Logins etc. 
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image004.png)
 
 4. Click **Next:Storage**  to launch the Storage Tab and populate the below fields 
 
 - **Primary Storage Type**: Azure Storage.
  - **Selection Method**: Select from a list Radio Button
- - **Primary Storage Account**:  A default storage account name(formed from your cluster name) and a corresponding container should be prepopulated. Click **OK** to select these
+ - **Primary Storage Account**:  A default storage account name(formed from your cluster name) and a corresponding container should be prepopulated. Click **OK** to select these.
+
+
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image005.png)
  - Leave the rest of the options untouched and scroll down to check the checkbox **Enable HBase accelerated writes**.  *(Note that we would later be creating a second  cluster without accelerated writes using the same steps but with this box unchecked.)* 
 
+
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image005.png)
 5. Leave the **Security+Networking** blade to its default settings with no changes and go to the **Configuration+pricing** tab. 
+
+
 
 6. In the **Configuration+pricing** tab, note the **Node configuration** section now has a line Item titled **Premium disks per worker node**. 
 7. Choose the Region node to **10** and Node Size to **DS14v2**(*you could chooser smaller number and size also but ensure that the both clusters have identical number of nodes and VM SKU to ensure parity in comparison*) 
+
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image001.png)
 
 8. Click **Next: Review + Create**
 
@@ -60,7 +70,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4MjYzMjQ2LC03MzYxMzE0NywzMTc4OD
-E1MDIsLTczMzc2MjkyMiw3ODgyODU2MTUsLTQzMTU0NTkyNCwx
-MjAxMzc4NTk5XX0=
+eyJoaXN0b3J5IjpbLTEyNDU5NjAyNTcsLTczNjEzMTQ3LDMxNz
+g4MTUwMiwtNzMzNzYyOTIyLDc4ODI4NTYxNSwtNDMxNTQ1OTI0
+LDEyMDEzNzg1OTldfQ==
 -->
