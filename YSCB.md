@@ -147,8 +147,11 @@ $ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], 95thPercentileLatency(us): 95% of INSERT operations have a data point below this value
  - [INSERT], 99thPercentileLatency(us): 99% of INSERT operations have a data point below this value
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMjI1MTA1LDk5NTYyNDMzLDU1MzM5Nj
+eyJoaXN0b3J5IjpbMzE1Njc5MTk1LDk5NTYyNDMzLDU1MzM5Nj
 c4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDksLTExNDE1NTk2OTgs
 MTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0ND
 U0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMz
