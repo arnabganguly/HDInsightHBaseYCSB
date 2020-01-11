@@ -65,10 +65,14 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 11. Repeat  the same steps again to create a second cluster without Accelerated writes by unchecking the **Enable Accelerated Writes** checkbox on the storage tab. 
 
-
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image009.png)
 
 12. In the **Configuration+pricing** tab for this cluster , note that the **Node configuration** section  does NOT have a **Premium disks per worker node** line item.
 13. Choose the Region node to **10** and Node Size to **D14v2**.(*Also note the lack of DS series VM types like earlier*) 
+
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image010.png)
+
+
 14. Click **Create** to start deploying the second cluster without Accelerated Writes. 
 15. Now that we are done with cluster deployments , in the next section we would set up and run  YCSB tests on both these clusters. 
 
@@ -77,7 +81,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ4NjIyNjMsLTczNjEzMTQ3LDMxNz
+eyJoaXN0b3J5IjpbLTIxMTA4MDEyMDcsLTczNjEzMTQ3LDMxNz
 g4MTUwMiwtNzMzNzYyOTIyLDc4ODI4NTYxNSwtNDMxNTQ1OTI0
 LDEyMDEzNzg1OTldfQ==
 -->
