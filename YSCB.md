@@ -117,14 +117,18 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 ### Comparison of the numbers with explanation
 
-| Parameter |Unit |With Accelerated writes  | Withot ecclerated writes |
+| Parameter |Unit |With Accelerated writes  | Without Accelerated writes |
 |--|--|--|--|
-| [OVERALL], RunTime(ms) |  Milliseconds|  |  |
+| [OVERALL], RunTime(ms) |  Milliseconds| 567478 | 2574273 |
+| [OVERALL], Throughput(ops/sec) |  Milliseconds| 567478 | 2574273 |
+| [OVERALL], RunTime(ms) |  Milliseconds| 567478 | 2574273 |
+| [OVERALL], RunTime(ms) |  Milliseconds| 567478 | 2574273 |
+| [OVERALL], RunTime(ms) |  Milliseconds| 567478 | 2574273 |
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjMxMjIxMyw1NTMzOTY3ODksOTAzNz
+eyJoaXN0b3J5IjpbLTQxNjQ2MzA1NCw1NTMzOTY3ODksOTAzNz
 QyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNTU5Njk4LDE2MzYxMTg0
 NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxNDQ1NDU0MjQsLT
 I1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgzMzgwLC00NjQ3
