@@ -37,6 +37,7 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 
 - To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
 
+
 #### HDInsight HBase with accelerated writes
 ```
 $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
@@ -86,11 +87,11 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUxNzI3NDksLTExNDE1NTk2OTgsMT
-YzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0NDU0
-NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMzOD
-AsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MTAy
-NjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwODAzNDQzMD
-ksLTE1NDg3NzkwLC0xNjcxMDEyMjUsLTE5MTM0NjE0MjAsLTE1
-NjEzODMyNzNdfQ==
+eyJoaXN0b3J5IjpbOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0xMT
+QxNTU5Njk4LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMTQ0
+NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4Ny
+wxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0
+NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC
+0yMDgwMzQ0MzA5LC0xNTQ4Nzc5MCwtMTY3MTAxMjI1LC0xOTEz
+NDYxNDIwXX0=
 -->
