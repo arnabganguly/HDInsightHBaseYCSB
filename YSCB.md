@@ -49,12 +49,7 @@ $ tar xfvz ycsb-0.17.0.tar.gz
  bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
  ```
 
-
-
-
-
-
-- To start lets run a write heavy workload to load 1 million rows into previously created HBase table.
+- Run the  write heavy workload to load 1 million rows into previously created HBase table.
 >  Ignore the warnings that you may see after submitting the command. 
 
 #### HDInsight HBase with accelerated writes
@@ -153,7 +148,7 @@ $ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], 99thPercentileLatency(us): 99% of INSERT operations have a data point below this value
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDc1NTM5Miw5OTU2MjQzMyw1NTMzOT
+eyJoaXN0b3J5IjpbMTczMzQ3NTA3Myw5OTU2MjQzMyw1NTMzOT
 Y3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNTU5Njk4
 LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxND
 Q1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgz
