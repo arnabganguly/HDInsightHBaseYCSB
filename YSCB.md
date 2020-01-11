@@ -7,6 +7,9 @@
     cluster.  The path should have below format. 
     
     ``` ssh <sshuser>@<clustername>.azurehdinsight.net ```
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image011.png)
+
+
 
 ### 2. Create the Table 
 - Run the below steps to create the HBase tables which will be used to load the datasets
@@ -164,11 +167,11 @@ bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=c
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjczNTU2MDUsMzE1Njc5MTk1LDk5NT
-YyNDMzLDU1MzM5Njc4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDks
-LTExNDE1NTk2OTgsMTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4ND
-IxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2
-NTg3LDE3NzM4ODMzODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LD
-IzOTQ1Mzk4LDM2MTAyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5
-MTldfQ==
+eyJoaXN0b3J5IjpbMTk5MzAyMDE3NywzMTU2NzkxOTUsOTk1Nj
+I0MzMsNTUzMzk2Nzg5LDkwMzc0MjIxMywtMTI4NTE3Mjc0OSwt
+MTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0NzY1MDgzMjMsOTg0Mj
+E0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5MTcsLTEwNTE2NTY1
+ODcsMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNjA1MDkxMTksMj
+M5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkx
+OV19
 -->
