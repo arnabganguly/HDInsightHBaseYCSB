@@ -2,7 +2,7 @@
 
 ### 1. Login to HDInsight shell
 
-- Steps to set up and run YCSB tests on both clusters are identical. 
+- Steps to set up and run [YCSB tests](https://github.com/brianfrankcooper/YCSB/wiki) on both clusters are identical. 
 - On the cluster page on the Azure portal , navigate to the **SSH + Cluster login** and use the Hostname and SSH path to ssh into the
     cluster.  The path should have below format. 
     
@@ -164,7 +164,7 @@ bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=c
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc1MTM0MDksMzE1Njc5MTk1LDk5NT
+eyJoaXN0b3J5IjpbLTE2MjczNTU2MDUsMzE1Njc5MTk1LDk5NT
 YyNDMzLDU1MzM5Njc4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDks
 LTExNDE1NTk2OTgsMTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4ND
 IxNDQ1OCwtMjE0NDU0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2
