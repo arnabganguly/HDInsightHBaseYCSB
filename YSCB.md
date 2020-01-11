@@ -162,8 +162,8 @@ bin/ycsb run hbase12 -P workloads/workloadb -p table=usertable -p columnfamily=c
 
 | Parameter |Unit |With Accelerated writes  | Without Accelerated writes |
 |--|--|--|--|
-| [OVERALL], RunTime(ms) |  Milliseconds| 29244 | 39410 |
-| [OVERALL], Throughput(ops/sec) |  Operations/sec| 3419 | 2537 |
+| [OVERALL], RunTime(ms) |  Milliseconds| 292029 | 374379 |
+| [OVERALL], Throughput(ops/sec) |  Operations/sec| 3424 | 2537 |
 | [READ], Operations |  Operations/sec| 94943 | 95227 |
 | [READ], 95thPercentileLatency(us) |  Microseconds| 1385 | 1576 |
 | [READ], 99thPercentileLatency(us) | Microseconds| 3717 | 3941 |
@@ -186,11 +186,11 @@ bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=c
 | [READ], Return=OK |  # of records| 1000000 | 1000000 |
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjQyOTUsMjA2MDQxNTE0MiwtMTEyMD
-U3NjE5MCwzMTU2NzkxOTUsOTk1NjI0MzMsNTUzMzk2Nzg5LDkw
-Mzc0MjIxMywtMTI4NTE3Mjc0OSwtMTE0MTU1OTY5OCwxNjM2MT
-E4NDY0LDE0NzY1MDgzMjMsOTg0MjE0NDU4LC0yMTQ0NTQ1NDI0
-LC0yNTI0Nzc5MTcsLTEwNTE2NTY1ODcsMTc3Mzg4MzM4MCwtND
-Y0NzQyNDA3LDExNjA1MDkxMTksMjM5NDUzOTgsMzYxMDI2NDQz
-XX0=
+eyJoaXN0b3J5IjpbMTU0NDI3NTAxOCwxMjY2NDI5NSwyMDYwND
+E1MTQyLC0xMTIwNTc2MTkwLDMxNTY3OTE5NSw5OTU2MjQzMyw1
+NTMzOTY3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNT
+U5Njk4LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgs
+LTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4NywxNz
+czODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5
+OF19
 -->
