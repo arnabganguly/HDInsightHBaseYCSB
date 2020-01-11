@@ -129,7 +129,7 @@ $ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamil
 
 ```
 
-### Comparison of the numbers with explanation
+### Comparison of the HBase Write numbers with explanation 
 
 | Parameter |Unit |With Accelerated writes  | Without Accelerated writes |
 |--|--|--|--|
@@ -148,11 +148,11 @@ $ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], 99thPercentileLatency(us): 99% of INSERT operations have a data point below this value
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzQ3NTA3Myw5OTU2MjQzMyw1NTMzOT
-Y3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0xMTQxNTU5Njk4
-LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMTQ0NTgsLTIxND
-Q1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4NywxNzczODgz
-MzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMzk0NTM5OCwzNj
-EwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5LC0yMDgwMzQ0
-MzA5XX0=
+eyJoaXN0b3J5IjpbMjkzMjI1MTA1LDk5NTYyNDMzLDU1MzM5Nj
+c4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDksLTExNDE1NTk2OTgs
+MTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0ND
+U0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMz
+ODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MT
+AyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwODAzNDQz
+MDldfQ==
 -->
