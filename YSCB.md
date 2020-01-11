@@ -36,11 +36,12 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 ### 4. Run a write heavy workload in both clusters  
 
  - Use the below command to initiate a write heavy workload with the below parameters
- - List item
+   - -p workloads/workloada : Indicates that the append workload workloada needs to be run
+   - 
 
  
 ```
- bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
+ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
  ```
 
 
@@ -53,7 +54,7 @@ $ tar xfvz ycsb-0.17.0.tar.gz
 
 #### HDInsight HBase with accelerated writes
 ```
-$ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
+$ bin/ycsb load hbase12 -p workloads/workloada -p table=usertable -p columnfamily=cf -p recordcount=1000000 -p threadcount=4 -cp /etc/hbase/conf -s | tee -a workloada.dat
 
 2020-01-10 16:21:40:213 10 sec: 15451 operations; 1545.1 current ops/sec; est completion in 10 minutes [INSERT: Count=15452, Max=120319, Min=1249, Avg=2312.21, 90=2625, 99=7915, 99.9=19551, 99.99=113855]
 2020-01-10 16:21:50:213 20 sec: 34012 operations; 1856.1 current ops/sec; est completion in 9 minutes [INSERT: Count=18560, Max=305663, Min=1230, Avg=2146.57, 90=2341, 99=5975, 99.9=11151, 99.99=296703]
@@ -147,7 +148,7 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
  - [INSERT], 99thPercentileLatency(us): 99% of INSERT operations have a data point below this value
  - [INSERT], Return=OK: Record OK indicates that all INSERT operations were succesfull with the count alongside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc2MTM3NjQsOTk1NjI0MzMsNTUzMz
+eyJoaXN0b3J5IjpbLTE0MjAxNzY2MjcsOTk1NjI0MzMsNTUzMz
 k2Nzg5LDkwMzc0MjIxMywtMTI4NTE3Mjc0OSwtMTE0MTU1OTY5
 OCwxNjM2MTE4NDY0LDE0NzY1MDgzMjMsOTg0MjE0NDU4LC0yMT
 Q0NTQ1NDI0LC0yNTI0Nzc5MTcsLTEwNTE2NTY1ODcsMTc3Mzg4
