@@ -129,14 +129,15 @@ $ bin/ycsb load hbase12 -P workloads/workloada -p table=usertable -p columnfamil
 
  - [OVERALL], RunTime(ms) : Total execution time in milliseconds
  - [OVERALL], Throughput(ops/sec) : Number of operations/sec across all threads
- - [INSERT], Operations: Total number of insert operations
- - [INSERT], 95thPercentileLatency(us): Number of
+ - [INSERT], Operations: Total number of insert operations,with associated average, min, max, 95th and 99th percentile latencies below
+ - [INSERT], 95thPercentileLatency(us): 95% of INSERT operations have a date point below this value
+ - [INSERT], 99thPercentileLatency(us):
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzMzc3NTAsOTk1NjI0MzMsNTUzMzk2Nz
-g5LDkwMzc0MjIxMywtMTI4NTE3Mjc0OSwtMTE0MTU1OTY5OCwx
-NjM2MTE4NDY0LDE0NzY1MDgzMjMsOTg0MjE0NDU4LC0yMTQ0NT
-Q1NDI0LC0yNTI0Nzc5MTcsLTEwNTE2NTY1ODcsMTc3Mzg4MzM4
-MCwtNDY0NzQyNDA3LDExNjA1MDkxMTksMjM5NDUzOTgsMzYxMD
-I2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkxOSwtMjA4MDM0NDMw
-OV19
+eyJoaXN0b3J5IjpbODc2MDg2MDQ0LDk5NTYyNDMzLDU1MzM5Nj
+c4OSw5MDM3NDIyMTMsLTEyODUxNzI3NDksLTExNDE1NTk2OTgs
+MTYzNjExODQ2NCwxNDc2NTA4MzIzLDk4NDIxNDQ1OCwtMjE0ND
+U0NTQyNCwtMjUyNDc3OTE3LC0xMDUxNjU2NTg3LDE3NzM4ODMz
+ODAsLTQ2NDc0MjQwNywxMTYwNTA5MTE5LDIzOTQ1Mzk4LDM2MT
+AyNjQ0MywxNTkwNzQyMDg2LDEwNTExMjM5MTksLTIwODAzNDQz
+MDldfQ==
 -->
