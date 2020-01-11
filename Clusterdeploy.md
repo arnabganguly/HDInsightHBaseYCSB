@@ -3,10 +3,14 @@
 To provision HDInsight HBase with the new experience on  Azure Management Portal, perform the below steps. 
 
 1. Go to the Azure Portal portal.azure.com. Login using your azure account credentials.
+
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image001.png)
     
 2. Select  **Create a resource -> Analytics -> HDInsight**
 
-![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image001.png)
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image002.png)
+
+
 
 3. On the Basics Tab populate the below fields towards the creation of an HBase cluster. 
 
@@ -56,7 +60,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDQ3MDkwNCwtNzM2MTMxNDcsMzE3OD
-gxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1LC00MzE1NDU5MjQs
-MTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbODY4MjYzMjQ2LC03MzYxMzE0NywzMTc4OD
+E1MDIsLTczMzc2MjkyMiw3ODgyODU2MTUsLTQzMTU0NTkyNCwx
+MjAxMzc4NTk5XX0=
 -->
