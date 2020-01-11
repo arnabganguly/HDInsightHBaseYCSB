@@ -6,7 +6,10 @@
 - On the cluster page on the Azure portal , navigate to the **SSH + Cluster login** and use the Hostname and SSH path to ssh into the
     cluster.  The path should have below format. 
     
-    ``` ssh <sshuser>@<clustername>.azurehdinsight.net ```
+    ``` 
+    ssh <sshuser>@<clustername>.azurehdinsight.net 
+    ```
+    
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image011.png)
 
 
@@ -167,11 +170,11 @@ bin/ycsb run hbase12 -P workloads/workloadc -p table=usertable -p columnfamily=c
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzAyMDE3NywzMTU2NzkxOTUsOTk1Nj
-I0MzMsNTUzMzk2Nzg5LDkwMzc0MjIxMywtMTI4NTE3Mjc0OSwt
-MTE0MTU1OTY5OCwxNjM2MTE4NDY0LDE0NzY1MDgzMjMsOTg0Mj
-E0NDU4LC0yMTQ0NTQ1NDI0LC0yNTI0Nzc5MTcsLTEwNTE2NTY1
-ODcsMTc3Mzg4MzM4MCwtNDY0NzQyNDA3LDExNjA1MDkxMTksMj
-M5NDUzOTgsMzYxMDI2NDQzLDE1OTA3NDIwODYsMTA1MTEyMzkx
-OV19
+eyJoaXN0b3J5IjpbNDQ5MzA3Mjk5LDMxNTY3OTE5NSw5OTU2Mj
+QzMyw1NTMzOTY3ODksOTAzNzQyMjEzLC0xMjg1MTcyNzQ5LC0x
+MTQxNTU5Njk4LDE2MzYxMTg0NjQsMTQ3NjUwODMyMyw5ODQyMT
+Q0NTgsLTIxNDQ1NDU0MjQsLTI1MjQ3NzkxNywtMTA1MTY1NjU4
+NywxNzczODgzMzgwLC00NjQ3NDI0MDcsMTE2MDUwOTExOSwyMz
+k0NTM5OCwzNjEwMjY0NDMsMTU5MDc0MjA4NiwxMDUxMTIzOTE5
+XX0=
 -->
