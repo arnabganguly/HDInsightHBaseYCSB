@@ -11,13 +11,13 @@ Before you start the Lab please ensure you have the below
 
 ## [](https://github.com/arnabganguly/llap-hdinsight#lab)Lab
 
-To the start the lab click  [here]
+Click to [Start the HDInsight YCSB lab](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/Clusterdeploy.md) .
 
 ## [](https://github.com/arnabganguly/llap-hdinsight#survey)Survey
 
 Please do complete the  [HDinsight Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR6613ua2aihPk14MtaeiuDpUN0JBMVVINE9IVjBWT0dKREYzMUJIT1ZGWi4u)  for us to be able to better design the product according to customer and partner preferences.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODYzOTcxNTksLTcwMDQxOTcyMywtNj
-g5NTU3NzQyLC0yNDI5OTM0NDcsNDEwMzA4MDk5XX0=
+eyJoaXN0b3J5IjpbNDQxNTgyNjc4LC03MDA0MTk3MjMsLTY4OT
+U1Nzc0MiwtMjQyOTkzNDQ3LDQxMDMwODA5OV19
 -->
