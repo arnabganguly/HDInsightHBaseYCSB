@@ -42,7 +42,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - Leave the rest of the options untouched and scroll down to check the checkbox **Enable HBase accelerated writes**.  *(Note that we would later be creating a second  cluster without accelerated writes using the same steps but with this box unchecked.)* 
 
 
-![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image005.png)
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image006.png)
 5. Leave the **Security+Networking** blade to its default settings with no changes and go to the **Configuration+pricing** tab. 
 
 
@@ -52,13 +52,20 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image001.png)
 
+
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image007.png)
+
 8. Click **Next: Review + Create**
 
 9. In the Review and Create tab , ensure that **HBase Accelerated Writes** is Enabled under the **Storage** section. 
 
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image008.png)
+
 10. Click **Create** to start deploying the first cluster with Accelerated Writes. 
 
 11. Repeat  the same steps again to create a second cluster without Accelerated writes by unchecking the **Enable Accelerated Writes** checkbox on the storage tab. 
+
+
 
 12. In the **Configuration+pricing** tab for this cluster , note that the **Node configuration** section  does NOT have a **Premium disks per worker node** line item.
 13. Choose the Region node to **10** and Node Size to **D14v2**.(*Also note the lack of DS series VM types like earlier*) 
@@ -70,7 +77,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU5NjAyNTcsLTczNjEzMTQ3LDMxNz
+eyJoaXN0b3J5IjpbLTE5OTQ4NjIyNjMsLTczNjEzMTQ3LDMxNz
 g4MTUwMiwtNzMzNzYyOTIyLDc4ODI4NTYxNSwtNDMxNTQ1OTI0
 LDEyMDEzNzg1OTldfQ==
 -->
