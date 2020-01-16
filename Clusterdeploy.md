@@ -26,11 +26,14 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  
 4. Leave all other tabs at default and click on **Review+create** to create the storage account. 
 
-5. After the storage account is created click on **Access Keys** on the left and copy the Primary Access key . 
+5. After the storage account is created click on **Access Keys** on the left and copy **key1** . We would use this later in the cluster creation process. 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image022.png)
 
+6. 
+
+
     
-5. Select  **Create a resource -> Analytics -> HDInsight**
+7. Select  **Create a resource -> Analytics -> HDInsight**
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image002.png)
 
@@ -103,7 +106,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzQ3OTkwMywtNDg1MzQ2NzEsMTAzOD
+eyJoaXN0b3J5IjpbMTk2MDYxNTc3OSwtNDg1MzQ2NzEsMTAzOD
 gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
 Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
