@@ -7,7 +7,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 1. Go to the Azure Portal portal.azure.com. Login using your azure account credentials.
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image001.png)
 
-2. We would start with creating a Premium Block Blob Storage Account. From the Home Page , click on Storage Account. 
+2. We would start with creating a Premium Block Blob Storage Account. From the New Page , click on Storage Account. 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image0013.png)
 
 3. In the Create Storage Account page populate the below fields.
@@ -24,11 +24,13 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Cluster login username**:Enter username for cluster administrator(default:admin)
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image0015.png)
  
-4. Leave all other tabs at default and click on **Review+create**. 
+4. Leave all other tabs at default and click on **Review+create** to create the storage account. 
+
+5. 
 
 
     
-2. Select  **Create a resource -> Analytics -> HDInsight**
+5. Select  **Create a resource -> Analytics -> HDInsight**
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image002.png)
 
@@ -101,7 +103,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2Mjk3MDUxLDEwMzg4MjYwMDgsLTczNj
-EzMTQ3LDMxNzg4MTUwMiwtNzMzNzYyOTIyLDc4ODI4NTYxNSwt
-NDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
+eyJoaXN0b3J5IjpbLTE1NzkwMDAyMDgsMTAzODgyNjAwOCwtNz
+M2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1
+LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
