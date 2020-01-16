@@ -19,6 +19,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Cluster login username**:Enter username for cluster administrator(default:admin)
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image0015.png)
  
+4. Leave all other tabs at default and click on Review+CReate
 3. Go to the Azure Portal portal.azure.com. Login using your azure account credentials.
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image001.png)
@@ -96,7 +97,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU5MjMxNDQsMTAzODgyNjAwOCwtNz
-M2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1
-LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbMTI4NTg0ODEzOSwxMDM4ODI2MDA4LC03Mz
+YxMzE0NywzMTc4ODE1MDIsLTczMzc2MjkyMiw3ODgyODU2MTUs
+LTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
 -->
