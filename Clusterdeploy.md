@@ -59,7 +59,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 - **Primary Storage Type**: Azure Storage.
  - **Selection Method**: Choose Radio button *Use access key*
  - **Storage account name**: Enter the name of the Premium Block Blob storage account created earlier
- - **Access Key**:Enter the key1 access key you copied earlier
+ - **Access Key**:Enter the **key1** access key you copied earlier
  - **Container**:  HDInsight should propose a default container name. You could either choose this or create a name of your own. 
 
 
@@ -104,7 +104,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4NzExMTY1LC00ODUzNDY3MSwxMDM4OD
-I2MDA4LC03MzYxMzE0NywzMTc4ODE1MDIsLTczMzc2MjkyMiw3
-ODgyODU2MTUsLTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
+eyJoaXN0b3J5IjpbMTA5MzAxMzUwMSwtNDg1MzQ2NzEsMTAzOD
+gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
+Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
