@@ -88,7 +88,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 11. Repeat  the same steps again to create a second HDInsight HBase cluster , this time without Accelerated writes. Note the below changes 
 - Use a normal blob storage account that is recommended by default
-- Mark **Enable Accelerated Writes** checkbox unchecked on the Storage tab. 
+- Keep the **Enable Accelerated Writes** checkbox unchecked on the Storage tab. 
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image010.png)
 
@@ -106,7 +106,8 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDQzNTY5NiwtNDg1MzQ2NzEsMTAzOD
-gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
-Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTE0MTY1NjkxNDUsMTQ4NDQzNTY5NiwtND
+g1MzQ2NzEsMTAzODgyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAy
+LC03MzM3NjI5MjIsNzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMT
+M3ODU5OV19
 -->
