@@ -9,10 +9,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
  - **Subscription**: *Should be autopopulated with the subscription details*
  - **Resource Group**: Enter a resource group for holding your HDInsight HBase deployment
-
     <br>
-    <br>
-
  - **Storage account name**: Enter a name for your storage account for use in the premium cluster.
  - **Region**: Enter the name of the region of deployment(the cluster and storage account need to be in the same region)
  - **Performance** : *Premium*
@@ -99,7 +96,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDc5ODkxNiwxMDM4ODI2MDA4LC03Mz
+eyJoaXN0b3J5IjpbLTc0MTY1OTIyOCwxMDM4ODI2MDA4LC03Mz
 YxMzE0NywzMTc4ODE1MDIsLTczMzc2MjkyMiw3ODgyODU2MTUs
 LTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
 -->
