@@ -17,10 +17,10 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Region**: Enter the name of the region of deployment(the cluster and storage account need to be in the same region)
  - **Performance** : *Premium*
  - **Account kind** : *BlockBlobStorage* 
- - ** Replication** : *Locally-redundant storage(LRS)*
+ - **Replication** : *Locally-redundant storage(LRS)*
   
  - **Cluster login username**:Enter username for cluster administrator(default:admin)
-
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image0015.png)
  
 3. Go to the Azure Portal portal.azure.com. Login using your azure account credentials.
 
@@ -99,7 +99,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODgyNjAwOCwtNzM2MTMxNDcsMzE3OD
-gxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1LC00MzE1NDU5MjQs
-MTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTQ0NDc5ODkxNiwxMDM4ODI2MDA4LC03Mz
+YxMzE0NywzMTc4ODE1MDIsLTczMzc2MjkyMiw3ODgyODU2MTUs
+LTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
 -->
