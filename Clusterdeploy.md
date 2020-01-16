@@ -67,7 +67,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - Leave the rest of the options untouched and scroll down to check the checkbox **Enable HBase accelerated writes**.  *(Note that we would later be creating a second  cluster without accelerated writes using the same steps but with this box unchecked.)* 
 
 
-![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image006.png)
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image021.png)
 
 5. Leave the **Security+Networking** blade to its default settings with no changes and go to the **Configuration+pricing** tab. 
 
@@ -104,7 +104,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDcwNDcwMiwtNDg1MzQ2NzEsMTAzOD
-gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
-Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbMjg5NTQ4MjE5LC00ODUzNDY3MSwxMDM4OD
+I2MDA4LC03MzYxMzE0NywzMTc4ODE1MDIsLTczMzc2MjkyMiw3
+ODgyODU2MTUsLTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
 -->
