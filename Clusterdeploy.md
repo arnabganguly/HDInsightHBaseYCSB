@@ -26,7 +26,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  
 4. Leave all other tabs at default and click on **Review+create** to create the storage account. 
 
-5. 
+5. After the storage account is created click on **Access Keys** on the left and copy the Primary Access key . 
 
 
     
@@ -103,7 +103,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkwMDAyMDgsMTAzODgyNjAwOCwtNz
-M2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1
-LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTQ4NTM0NjcxLDEwMzg4MjYwMDgsLTczNj
+EzMTQ3LDMxNzg4MTUwMiwtNzMzNzYyOTIyLDc4ODI4NTYxNSwt
+NDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
 -->
