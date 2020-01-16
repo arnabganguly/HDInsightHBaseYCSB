@@ -86,7 +86,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 10. Click **Create** to start deploying the first cluster with Accelerated Writes. 
 
-11. Repeat  the same steps again to create a second cluster without Accelerated writes by unchecking the **Enable Accelerated Writes** checkbox on the storage tab. 
+11. Repeat  the same steps again to create a second cluster without Accelerated writes by choosing a normal unchecking the **Enable Accelerated Writes** checkbox on the storage tab. 
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image010.png)
 
@@ -104,7 +104,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NTQ4MjE5LC00ODUzNDY3MSwxMDM4OD
-I2MDA4LC03MzYxMzE0NywzMTc4ODE1MDIsLTczMzc2MjkyMiw3
-ODgyODU2MTUsLTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
+eyJoaXN0b3J5IjpbMTE2OTU1NTMwOSwtNDg1MzQ2NzEsMTAzOD
+gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
+Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
