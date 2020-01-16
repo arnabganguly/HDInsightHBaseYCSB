@@ -11,7 +11,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Resource Group**: Enter a resource group for holding your HDInsight HBase deployment
 
  - **Storage account name**: Enter a name for your storage account for use in the premium cluster.
- - **Region**: Enter the name of the region of deployment(the cluster and storage account need to be in the same region)
+ - **Region**: Enter the name of the region of deployment(*ensure that cluster and storage account are in the same region*)
  - **Performance** : *Premium*
  - **Account kind** : *BlockBlobStorage* 
  - **Replication** : *Locally-redundant storage(LRS)*
@@ -96,7 +96,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDQ2ODcxNCwxMDM4ODI2MDA4LC03Mz
-YxMzE0NywzMTc4ODE1MDIsLTczMzc2MjkyMiw3ODgyODU2MTUs
-LTQzMTU0NTkyNCwxMjAxMzc4NTk5XX0=
+eyJoaXN0b3J5IjpbLTIxMzU5MjMxNDQsMTAzODgyNjAwOCwtNz
+M2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1
+LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
