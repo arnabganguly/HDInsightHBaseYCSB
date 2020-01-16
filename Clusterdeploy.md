@@ -57,7 +57,9 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 4. Click **Next:Storage**  to launch the Storage Tab and populate the below fields 
 
 - **Primary Storage Type**: Azure Storage.
- - **Selection Method**: *Use access key*
+ - **Selection Method**: Choose Radio button *Use access key*
+ - **Storage account name**: Enter the name of the Premium Block Blob storage account created earlier
+ - **Access Key**:E 
  - **Primary Storage Account**:  A default storage account name(formed from your cluster name) and a corresponding container should be prepopulated. Click **OK** to select these.
 
 
@@ -102,7 +104,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTEzOTcwNSwtNDg1MzQ2NzEsMTAzOD
+eyJoaXN0b3J5IjpbLTM0MzE5NzQ3NSwtNDg1MzQ2NzEsMTAzOD
 gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
 Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
