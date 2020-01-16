@@ -33,7 +33,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
     
-7. Select  **Create a resource -> Analytics -> HDInsight**
+7. Lets now start deploying an HDInsight HBase cluster with Accelerated writes. Select  **Create a resource -> Analytics -> HDInsight**
 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image002.png)
 
@@ -106,7 +106,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDYxNTc3OSwtNDg1MzQ2NzEsMTAzOD
-gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
-Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTE2MTk2MTMyMTcsLTQ4NTM0NjcxLDEwMz
+g4MjYwMDgsLTczNjEzMTQ3LDMxNzg4MTUwMiwtNzMzNzYyOTIy
+LDc4ODI4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
 -->
