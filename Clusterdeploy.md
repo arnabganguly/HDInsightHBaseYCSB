@@ -7,7 +7,17 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 2. In the Create Storage Account page populate the below fields.
 
+ - **Subscription**: *Should be autopopulated with the subscription details*
+ - **Resource Group**: Enter a resource group for holding your HDInsight HBase deployment
 
+    <br>
+    <br>
+
+ - **Storage account name**: Enter a name for your storage account for use in the premium cluster.
+ - **Region**: Enter the name of the region of deployment
+ - **Cluster Type** : Cluster Type -  *HBase* 
+  Version-   *HBase 2.0.0(HDI 4.0)* 
+ - **Cluster login username**:Enter username for cluster administrator(default:admin)
 
  
 3. Go to the Azure Portal portal.azure.com. Login using your azure account credentials.
@@ -87,7 +97,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTA5NTE0MSwtNzM2MTMxNDcsMzE3OD
-gxNTAyLC03MzM3NjI5MjIsNzg4Mjg1NjE1LC00MzE1NDU5MjQs
-MTIwMTM3ODU5OV19
+eyJoaXN0b3J5IjpbLTM4ODc0MzIxLC03MzYxMzE0NywzMTc4OD
+E1MDIsLTczMzc2MjkyMiw3ODgyODU2MTUsLTQzMTU0NTkyNCwx
+MjAxMzc4NTk5XX0=
 -->
