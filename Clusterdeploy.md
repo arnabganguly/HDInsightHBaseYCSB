@@ -63,7 +63,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
  - **Container**:  HDInsight should propose a default container name. You could either choose this or create a name of your own. 
 
 
-![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image020.png)
+![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image021.png)
  - Leave the rest of the options untouched and scroll down to check the checkbox **Enable HBase accelerated writes**.  *(Note that we would later be creating a second  cluster without accelerated writes using the same steps but with this box unchecked.)* 
 
 
@@ -104,7 +104,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzAxMzUwMSwtNDg1MzQ2NzEsMTAzOD
+eyJoaXN0b3J5IjpbLTg4OTkxNjM4OCwtNDg1MzQ2NzEsMTAzOD
 gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
 Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
