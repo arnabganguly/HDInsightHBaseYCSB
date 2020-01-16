@@ -28,10 +28,6 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 5. After the storage account is created click on **Access Keys** on the left and copy **key1** . We would use this later in the cluster creation process. 
 ![Clusterdeploy](https://github.com/arnabganguly/HDInsightHBaseYCSB/blob/master/images/image022.png)
-
-6. 
-
-
     
 7. Lets now start deploying an HDInsight HBase cluster with Accelerated writes. Select  **Create a resource -> Analytics -> HDInsight**
 
@@ -61,7 +57,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 4. Click **Next:Storage**  to launch the Storage Tab and populate the below fields 
 
 - **Primary Storage Type**: Azure Storage.
- - **Selection Method**: Select from a list Radio Button
+ - **Selection Method**: *Use access key*
  - **Primary Storage Account**:  A default storage account name(formed from your cluster name) and a corresponding container should be prepopulated. Click **OK** to select these.
 
 
@@ -106,7 +102,7 @@ To provision HDInsight HBase with the new experience on  Azure Management Portal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk2MTMyMTcsLTQ4NTM0NjcxLDEwMz
-g4MjYwMDgsLTczNjEzMTQ3LDMxNzg4MTUwMiwtNzMzNzYyOTIy
-LDc4ODI4NTYxNSwtNDMxNTQ1OTI0LDEyMDEzNzg1OTldfQ==
+eyJoaXN0b3J5IjpbMTYyOTEzOTcwNSwtNDg1MzQ2NzEsMTAzOD
+gyNjAwOCwtNzM2MTMxNDcsMzE3ODgxNTAyLC03MzM3NjI5MjIs
+Nzg4Mjg1NjE1LC00MzE1NDU5MjQsMTIwMTM3ODU5OV19
 -->
